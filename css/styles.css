@@ -1,6 +1,64 @@
 * {
   font-size: 14px;
 }
+body {
+  background-image: url('../img/BackgroundImage.jpeg');
+  background-position: fixed;
+  background-size: cover;
+}
+/* ------------------------------------------------ */
+/* NAVBAR CSS */
+/* ------------------------------------------------ */
+.bg-dark {
+  background-color: rgb(22, 21, 21) !important;
+}
+
+li {
+  border-bottom: 3px solid transparent;
+}
+
+li::after {
+  display: block;
+  content: '';
+  border-bottom: 3px solid #fcfcfc;
+  transform: scaleX(0);
+  transition: transform 250ms ease-in-out;
+}
+
+li:hover::after {
+  transform: scaleX(1);
+}
+
+li.fromLeft::after {
+  transform-origin: 0% 50%;
+}
+
+/* ------------------------------------------------ */
+/* SECTION CSS */
+/* ------------------------------------------------ */
+.section {
+  color: #fff;
+}
+
+.pre-heading {
+  text-align: center;
+}
+
+.heading {
+  font-size: 9vw;
+  text-align: center;
+  font-weight: 300;
+}
+
+#parent {
+  white-space: nowrap;
+  overflow: hidden;
+  position: relative;
+}
+
+/* ------------------------------------------------ */
+/* JUDGE-PANEL */
+/* ------------------------------------------------ */
 .card {
   width: 17rem;
   height: 450px !important;
@@ -41,58 +99,6 @@ a {
     display: none;
   }
   /* border: 1px solid red; */
-}
-
-body {
-  background-image: url('../img/BackgroundImage.jpg');
-  background-position: fixed;
-  background-size: cover;
-}
-
-/* Navbar CSS */
-.bg-dark {
-  background-color: rgb(22, 21, 21) !important;
-}
-
-li {
-  border-bottom: 3px solid transparent;
-}
-
-li::after {
-  display: block;
-  content: '';
-  border-bottom: 3px solid #fcfcfc;
-  transform: scaleX(0);
-  transition: transform 250ms ease-in-out;
-}
-
-li:hover::after {
-  transform: scaleX(1);
-}
-
-li.fromLeft::after {
-  transform-origin: 0% 50%;
-}
-
-/* Sections CSS */
-.section {
-  color: #fff;
-}
-
-.pre-heading {
-  text-align: center;
-}
-
-.heading {
-  font-size: 9vw;
-  text-align: center;
-  font-weight: 300;
-}
-
-#parent {
-  white-space: nowrap;
-  overflow: hidden;
-  position: relative;
 }
 
 /* Animation */
