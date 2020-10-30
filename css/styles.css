@@ -1,121 +1,121 @@
 * {
-  font-size: 14px;
+    font-size: 14px;
 }
 .card {
-  width: 17rem;
-  height: 450px !important;
-  border-radius: 25px !important;
-  border: 1px solid black;
+    width: 17rem;
+    height: 450px !important;
+    border-radius: 25px !important;
+    border: 1px solid black;
 }
 .card-img-top {
-  height: 15rem;
+    height: 15rem;
 }
 .card-img-top {
-  border-radius: 25px !important;
-  border-bottom: 1px solid gainsboro;
+    border-radius: 25px !important;
+    border-bottom: 1px solid gainsboro;
 }
 .card-body {
-  padding-top: 5px;
+    padding-top: 5px;
 }
 .card-title {
-  font-size: 1.7rem;
+    font-size: 1.7rem;
 }
 hr {
-  width: 50px;
-  border-bottom: 1px solid orange;
-  margin-top: -10px;
-  margin-bottom: 15px;
+    width: 50px;
+    border-bottom: 1px solid orange;
+    margin-top: -10px;
+    margin-bottom: 15px;
 }
 .social-links {
-  padding-bottom: 10px;
-  border-bottom: 1px solid orange;
+    padding-bottom: 10px;
+    border-bottom: 1px solid orange;
 }
 a {
-  color: inherit;
+    color: inherit;
 }
 @media (max-width: 768px) {
-  .card {
-    height: 300px !important;
-  }
-  .card-text {
-    display: none;
-  }
-  /* border: 1px solid red; */
+    .card {
+        height: 300px !important;
+    }
+    .card-text {
+        display: none;
+    }
+    /* border: 1px solid red; */
 }
 
 body {
-  background-image: url('../img/BackgroundImage.jpg');
-  background-position: fixed;
-  background-size: cover;
+    background-image: url('../img/BackgroundImage.jpeg');
+    background-position: fixed;
+    background-size: cover;
 }
 
 /* Navbar CSS */
 .bg-dark {
-  background-color: rgb(22, 21, 21) !important;
+    background-color: rgb(22, 21, 21) !important;
 }
 
 li {
-  border-bottom: 3px solid transparent;
+    border-bottom: 3px solid transparent;
 }
 
 li::after {
-  display: block;
-  content: '';
-  border-bottom: 3px solid #fcfcfc;
-  transform: scaleX(0);
-  transition: transform 250ms ease-in-out;
+    display: block;
+    content: '';
+    border-bottom: 3px solid #fcfcfc;
+    transform: scaleX(0);
+    transition: transform 250ms ease-in-out;
 }
 
 li:hover::after {
-  transform: scaleX(1);
+    transform: scaleX(1);
 }
 
 li.fromLeft::after {
-  transform-origin: 0% 50%;
+    transform-origin: 0% 50%;
 }
 
 /* Sections CSS */
 .section {
-  color: #fff;
+    color: #fff;
 }
 
 .pre-heading {
-  text-align: center;
+    text-align: center;
 }
 
 .heading {
-  font-size: 9vw;
-  text-align: center;
+    font-size: 9vw;
+    text-align: center;
 }
 
 #parent {
-  white-space: nowrap;
-  overflow: hidden;
-  position: relative;
+    white-space: nowrap;
+    overflow: hidden;
+    position: relative;
 }
 
 /* Animation */
 #parent {
-  -webkit-animation: animated-text 2s steps(30, end) 1s 1 normal both;
-  animation: animated-text 2s steps(30, end) 1s 1 normal both;
+    -webkit-animation: animated-text 2s steps(30, end) 1s 1 normal both;
+    animation: animated-text 2s steps(30, end) 1s 1 normal both;
 }
 
 /* text animation */
 
 @-webkit-keyframes animated-text {
-  from {
-    width: 0;
-  }
-  to {
-    width: 480px;
-  }
+    from {
+        width: 0;
+    }
+    to {
+        width: 480px;
+    }
 }
 
 @keyframes animated-text {
-  from {
-    width: 0;
-  }
-  to {
-    width: 64.4vw;
-  }
+    from {
+        width: 0;
+    }
+    to {
+        width: 64.4vw;
+    }
 }
