@@ -1,0 +1,43 @@
+* {
+  font-size: 14px;
+}
+.card {
+  width: 17rem;
+  height: 450px !important;
+  border-radius: 25px !important;
+  border: 1px solid black;
+}
+.card-img-top {
+  height: 15rem;
+}
+.card-img-top {
+  border-radius: 25px !important;
+  border-bottom: 1px solid gainsboro;
+}
+.card-body {
+  padding-top: 5px;
+}
+.card-title {
+  font-size: 1.7rem;
+}
+hr {
+  width: 50px;
+  border-bottom: 1px solid orange;
+  margin-top: -10px;
+  margin-bottom: 15px;
+}
+.social-links {
+  padding-bottom: 10px;
+  border-bottom: 1px solid orange;
+}
+a {
+  color: inherit;
+}
+@media (max-width: 768px) {
+  .card {
+    height: 300px !important;
+  }
+  .card-text {
+    display: none;
+  }
+}
