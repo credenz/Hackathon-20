@@ -1,0 +1,80 @@
+* {
+    /* border: 1px solid red; */
+}
+
+body {
+    background-image: url('../img/BackgroundImage.jpg');
+    background-position: fixed;
+    background-size: cover;
+}
+
+/* Navbar CSS */
+.bg-dark {
+    background-color: rgb(22, 21, 21) !important;
+}
+
+li {
+    border-bottom: 3px solid transparent;
+}
+
+li::after {
+    display: block;
+    content: '';
+    border-bottom: 3px solid #fcfcfc;
+    transform: scaleX(0);
+    transition: transform 250ms ease-in-out;
+}
+
+li:hover::after {
+    transform: scaleX(1);
+}
+
+li.fromLeft::after {
+    transform-origin: 0% 50%;
+}
+
+/* Sections CSS */
+.section {
+    color: #fff;
+}
+
+.pre-heading {
+    text-align: center;
+}
+
+.heading {
+    font-size: 9vw;
+    text-align: center;
+}
+
+#parent {
+    white-space: nowrap;
+    overflow: hidden;
+    position: relative;
+}
+
+/* Animation */
+#parent {
+    -webkit-animation: animated-text 2s steps(30, end) 1s 1 normal both;
+    animation: animated-text 2s steps(30, end) 1s 1 normal both;
+}
+
+/* text animation */
+
+@-webkit-keyframes animated-text {
+    from {
+        width: 0;
+    }
+    to {
+        width: 480px;
+    }
+}
+
+@keyframes animated-text {
+    from {
+        width: 0;
+    }
+    to {
+        width: 64.4vw;
+    }
+}
