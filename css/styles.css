@@ -86,6 +86,7 @@ li.fromLeft::after {
 .heading {
   font-size: 9vw;
   text-align: center;
+  font-weight: 300;
 }
 
 #parent {
