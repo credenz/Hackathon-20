@@ -302,5 +302,8 @@ a {
     .card-text {
         display: none;
     }
+    .resmb {
+        margin-bottom: 10vw !important;
+    }
     /* border: 1px solid red; */
 }
