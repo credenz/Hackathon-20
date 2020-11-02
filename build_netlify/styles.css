@@ -144,9 +144,9 @@ li.fromLeft::after {
 /* ------------------------------------------------ */
 /* DOMAINS CSS */
 /* ------------------------------------------------ */
-.domain {
+/* .domain {
     margin: 0 0 0 0vw;
-}
+} */
 
 .mt-10 {
     margin-top: 10vw;
@@ -157,7 +157,8 @@ li.fromLeft::after {
 .snip1326 {
     position: relative;
     color: #fff;
-    margin: 0px 15px 50px;
+    /* margin: 0px 15px 50px; */
+    margin-bottom: 50px;
     max-width: 300px;
     width: 100%;
     text-align: center;
@@ -211,43 +212,54 @@ li.fromLeft::after {
     font-size: 3.6em;
     color: #bdbdbd;
 }
+/* .col {
+    flex-basis: 0 !important;
+    flex-grow: 1 !important;
+    max-width: 100%;
+} */
 
-@media (max-width: 768px) {
-    .domain {
+@media (max-width: 769px) {
+    /* .domain {
         margin: 0 0 0 6vw;
-    }
+    } */
     .mt-10 {
-        margin-top: 23vw;
-        margin-bottom: 20vw;
+        margin-top: 15vw;
+        margin-bottom: 0;
     }
     .snip1326 {
-        margin-bottom: 60vw;
+        margin-bottom: 30vw;
     }
-    .snip1326:last-of-type {
-        margin-bottom: 40vw;
-    }
+    /* .snip1326:last-of-type {
+        margin-bottom: 10vw;
+    } */
     .snip1326 .icon {
         display: inline-block;
-        margin-bottom: 3vw;
-        height: 12vw;
+        margin-bottom: 1vw;
+        height: 8vw;
         width: auto;
     }
 }
 
-@media (max-width: 350px) {
-    .domain {
+@media (max-width: 430px) {
+    /* .domain {
         margin: 0 0 0 -6vw;
-    }
+    } */
     .mt-10 {
         margin-top: 27vw;
-        margin-bottom: 40vw;
+        /* margin-bottom: 30vw; */
     }
     .snip1326 {
-        margin-bottom: 80vw;
+        margin-bottom: 60vw;
     }
-    .snip1326:last-of-type {
+    .snip1326 .icon {
+        display: inline-block;
+        margin-bottom: 3vw;
+        height: 15vw;
+        width: auto;
+    }
+    /* .snip1326:last-of-type {
         margin-bottom: 40vw;
-    }
+    } */
 }
 
 /* ------------------------------------------------ */
