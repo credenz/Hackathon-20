@@ -1,6 +1,9 @@
 * {
     font-size: 14px;
 }
+html{
+    scroll-behavior: smooth;
+}
 body {
     background-image: url('./BackgroundImage.jpeg');
     background-attachment: fixed;
@@ -313,7 +316,7 @@ a {
     align-items: center;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 4rem;
-    padding: 4rem;
+    padding: 1rem;
     margin: 0 auto;
     width: -webkit-max-content;
     width: -moz-max-content;
