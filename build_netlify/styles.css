@@ -5,6 +5,7 @@ body {
     background-image: url('./BackgroundImage.jpeg');
     background-attachment: fixed;
     background-size: cover;
+    overflow-x: hidden;
 }
 /* ------------------------------------------------ */
 /* NAVBAR CSS */
