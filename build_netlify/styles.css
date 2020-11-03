@@ -3,12 +3,14 @@
 }
 html{
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 body {
     background-image: url('./BackgroundImage.jpeg');
     background-attachment: fixed;
     background-size: cover;
     overflow-x: hidden;
+    position: relative;
 }
 /* ------------------------------------------------ */
 /* NAVBAR CSS */
