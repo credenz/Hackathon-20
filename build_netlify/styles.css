@@ -157,6 +157,12 @@ li.fromLeft::after {
 /* ------------------------------------------------ */
 /* TIMELINE CSS */
 /* ------------------------------------------------ */
+.timeline_heading{
+  text-align: center;
+  color: #ba8748;
+  padding-top: 5%;
+}
+
 .r-title{
   margin-top: var(--rTitleMarginTop, 0) !important;
   margin-bottom: var(--rTitleMarginBottom, 0) !important;
@@ -166,13 +172,13 @@ li.fromLeft::after {
 styles of typography  https://github.com/melnik909/css-typography
 */
 
-p:not([class]){
+.para:not([class]){
   line-height: var(--cssTypographyLineHeight, 1.78);
   margin-top: var(--cssTypographyBasicMargin, 1em);
   margin-bottom: 0;
 }
 
-p:not([class]):first-child{
+.para:not([class]):first-child{
   margin-top: 0;
 }
 
@@ -357,13 +363,13 @@ DEMO
   flex-direction: column;
 }
 
-p{
-  margin-top: 0;
+.para{
+  margin-top: 5%;
   margin-bottom: 1rem;
   line-height: 1%;
 }
 
-p:last-child{
+.para:last-child{
   margin-bottom: 0;
 }
 
