@@ -1,12 +1,14 @@
 * {
   font-size: 14px;
+  padding-right: 0;
 }
 html {
   scroll-behavior: smooth;
   overflow-x: hidden;
 }
 body {
-  background-image: url('./BackgroundImage.jpeg');
+   background-image: url('./samuel-scalzo-xyuYk9oLA8I-unsplash.jpg'); 
+  /* background-image: url('./gabriele-garanzelli-PzO_CitnJdI-unsplash.jpg'); */
   background-attachment: fixed;
   background-size: cover;
   overflow-x: hidden;
@@ -21,6 +23,10 @@ body {
 
 li {
   border-bottom: 3px solid transparent;
+}
+
+nav{
+  padding-right: 0 !important;
 }
 
 .nav-link {
@@ -52,6 +58,7 @@ li.fromLeft::after {
 
 .pre-heading {
   text-align: center;
+  margin-top: 2vw;
 }
 
 .heading {
@@ -156,7 +163,10 @@ li.fromLeft::after {
   margin-bottom: 12vw;
 }
 
-@import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+.domainModal{
+  background-color: rgb(48, 43, 43);
+}
+
 .snip1326 {
   position: relative;
   color: #fff;
@@ -165,6 +175,7 @@ li.fromLeft::after {
   width: 100%;
   text-align: center;
   box-sizing: border-box;
+  cursor: pointer;
 }
 .snip1326 h1,
 .snip1326 h5 {
@@ -256,7 +267,8 @@ li.fromLeft::after {
   width: 17rem;
   height: 450px !important;
   border-radius: 25px !important;
-  transition: all 0.2s ease-out !important;
+  transition: transform .2s ease-out !important;
+  transition: all .5s ease-out !important;
 }
 .card:hover {
   box-shadow: 0px 4px 8px rgba(38, 38, 38, 0.2) !important;
@@ -405,6 +417,22 @@ a {
   font-family: 'Poppins', sans-serif;
 }
 
+.contact-in-input::-webkit-input-placeholder {
+  color: #fff;
+}
+
+.contact-in-input::-moz-placeholder {
+  color: #fff;
+}
+
+.contact-in-input:-ms-input-placeholder {
+  color: #fff;
+}
+
+.contact-in-input::-ms-input-placeholder {
+  color: #fff;
+}
+
 .contact-in-input::placeholder {
   color: #fff;
 }
@@ -422,6 +450,22 @@ a {
   font-size: 12px;
   font-weight: 300;
   font-family: 'Poppins', sans-serif;
+}
+
+.contact-in-textarea::-webkit-input-placeholder {
+  color: #fff;
+}
+
+.contact-in-textarea::-moz-placeholder {
+  color: #fff;
+}
+
+.contact-in-textarea:-ms-input-placeholder {
+  color: #fff;
+}
+
+.contact-in-textarea::-ms-input-placeholder {
+  color: #fff;
 }
 
 .contact-in-textarea::placeholder {
@@ -802,5 +846,159 @@ footer {
   .card.card-dev {
     width: 8rem !important;
     height: 400px !important;
+  }
+}
+@media (max-width: 425px) {
+  .card-dev {
+    width: 2rem !important;
+    height: 400px !important;
+  }
+}
+.modal,.modal-open{
+  padding:0!important;
+}
+
+/* ------------------------------------------------ */
+/* HEADER ANIMATION CSS */
+/* ------------------------------------------------ */
+.glitch {
+  color: rgb(223, 191, 191);
+  position: relative;
+  font-size: 9vw;
+  margin: 70px 200px;
+  -webkit-animation: glitch 5s 5s infinite;
+          animation: glitch 5s 5s infinite;
+}
+
+.glitch::before {
+  content: attr(data-text);
+  position: absolute;
+  left: -2px;
+  text-shadow: -5px 0 magenta;
+  background: black;
+  overflow: hidden;
+  top: 0;
+  -webkit-animation: noise-1 3s linear infinite alternate-reverse, glitch 5s 5.05s infinite;
+          animation: noise-1 3s linear infinite alternate-reverse, glitch 5s 5.05s infinite;
+}
+
+.glitch::after {
+  content: attr(data-text);
+  position: absolute;
+  left: 2px;
+  text-shadow: -5px 0 lightgreen;
+  background: black;
+  overflow: hidden;
+  top: 0;
+  -webkit-animation: noise-2 3s linear infinite alternate-reverse, glitch 5s 5s infinite;
+          animation: noise-2 3s linear infinite alternate-reverse, glitch 5s 5s infinite;
+}
+
+@-webkit-keyframes glitch {
+  1%{
+    transform: rotateX(10deg) skewX(90deg);
+  }
+  2%{
+    transform: rotateX(0deg) skewX(0deg);
+  }
+}
+
+@keyframes glitch {
+  1%{
+    transform: rotateX(10deg) skewX(90deg);
+  }
+  2%{
+    transform: rotateX(0deg) skewX(0deg);
+  }
+}
+
+
+.scanlines {
+  overflow: hidden;
+  mix-blend-mode: difference;
+}
+
+.scanlines::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+
+  background: repeating-linear-gradient(
+    to bottom,
+    transparent 0%,
+    rgba(255, 255, 255, 0.05) .5%,
+    transparent 1%
+  );
+
+  -webkit-animation: fudge 7s ease-in-out alternate infinite;
+
+          animation: fudge 7s ease-in-out alternate infinite;
+}
+
+
+@-webkit-keyframes fudge {
+  from {
+    transform: translate(0px, 0px);
+  }
+  to {
+    transform: translate(0px, 2%);
+  }
+}
+
+
+@keyframes fudge {
+  from {
+    transform: translate(0px, 0px);
+  }
+  to {
+    transform: translate(0px, 2%);
+  }
+}
+
+.glow { 
+  color: rgb(223, 191, 191);
+  position: relative;
+  font-size: 9vw;
+  margin: 70px 200px;
+  -webkit-animation: glitch 5s 5s infinite;
+          animation: glitch 5s 5s infinite;
+  text-shadow: 0 0 1000px rgb(223, 191, 191);
+  color: transparent;
+  position: absolute;
+  top: 0;
+}
+
+.subtitle {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+  font-size: .8vw;
+  color: rgba(165, 141, 141, .4);
+  text-transform: uppercase;
+  letter-spacing: 1em;
+  text-align: center;
+  position: absolute;
+  left: 17%;
+  -webkit-animation: glitch-2 5s 5.02s infinite;
+          animation: glitch-2 5s 5.02s infinite;
+}
+
+@-webkit-keyframes glitch-2 {
+  1%{
+    transform: rotateX(10deg) skewX(70deg);
+  }
+  2%{
+    transform: rotateX(0deg) skewX(0deg);
+  }
+}
+
+@keyframes glitch-2 {
+  1%{
+    transform: rotateX(10deg) skewX(70deg);
+  }
+  2%{
+    transform: rotateX(0deg) skewX(0deg);
   }
 }
