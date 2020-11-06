@@ -34,19 +34,12 @@ nav {
 }
 
 li::after {
-<<<<<<< Updated upstream
-    display: block;
-    content: '';
-    border-bottom: 3px solid #fcfcfc;
-    transform: scaleX(0);
-    transition: transform 250ms ease-in-out;
-=======
   display: block;
   /*content: '';*/
   border-bottom: 3px solid #fcfcfc;
   transform: scaleX(0);
   transition: transform 250ms ease-in-out;
->>>>>>> Stashed changes
+
 }
 
 li:hover::after {
@@ -681,7 +674,7 @@ a {
     flex-wrap: wrap;
 }
 
-<<<<<<< Updated upstream
+
 .contact-in {
     padding: 40px 30px;
 }
@@ -690,7 +683,7 @@ a {
     flex: 30%;
     background: url(../images/1.jpg);
     color: #fff;
-=======
+
 /*.contact-in {
   padding: 80px 70px;
 }*/
@@ -698,7 +691,6 @@ a {
 .contact-in:nth-child(1) {
   flex: 30%;
   color: #fff;
->>>>>>> Stashed changes
 }
 
 .contact-in:nth-child(2) {
@@ -711,7 +703,6 @@ a {
 }
 
 .contact-in h1 {
-<<<<<<< Updated upstream
     font-size: 25px;
     color: #fff;
     text-transform: uppercase;
@@ -746,13 +737,12 @@ a {
 .contact-in ul {
     padding: 0;
     margin: 0;
-=======
-  font-size: 30px;
-  color: #fff;
-  text-transform: uppercase;
-  font-weight: 500;
-  margin-bottom: 30px;
-  text-align: center;
+    font-size: 30px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-bottom: 30px;
+    text-align: center;
 }
 
 .contact-in h2 {
@@ -931,8 +921,7 @@ a {
     }
 }
 
-<<<<<<< Updated upstream
-=======
+
 /*SOCIAL MEDIA ICONS*/
 /*.social-menu ul {
     position: absolute;
@@ -1000,7 +989,6 @@ a {
 }
 
 
->>>>>>> Stashed changes
 /* ------------------------------------------------ */
 /* UPDATES/NOTICES CSS */
 /* ------------------------------------------------ */
@@ -1206,107 +1194,132 @@ a {
 
 /* HEADLINE STRUCTURE */
 .headline {
-    display: block;
-    /*  width: 60%;*/
-    margin: 0 auto;
-    padding: 0;
-    position: relative;
-    text-align: center;
+  display: block;
+  width: 60%;
+  margin: 0 auto;
+  padding: 0;
+  position: relative;
+  text-align: center;
 }
 
 .lines {
-    display: inline-block;
-    position: absolute;
-    top: 40%;
+  display: inline-block;
+  position: absolute;
+  top: 40%;
 }
 .lines svg {
-    width: 200px;
-    height: 32px;
+  width: 200px;
+  height: 32px;
 }
-@media screen and (max-width: 768px) {
-    .lines svg {
-        width: 90px;
-        height: 15px;
-    }
-}
-@media screen and (max-width: 420px) {
-    .lines svg {
-        width: 60px;
-        height: 15px;
-    }
-}
-@media screen and (max-width: 420px) {
-    .lines svg {
-        width: 40px;
-        height: 15px;
-    }
+@media screen and (max-width: 650px) {
+  .lines svg {
+    width: 90px;
+    height: 15px;
+  }
 }
 
 .text {
-    display: inline-block;
-    /*max-width: 60%;*/
-    padding: 1em 30px;
-    text-align: center;
-    font-family: 'Poiret One', sans-serif;
-    text-transform: uppercase;
-    font-size: 35px;
-    letter-spacing: 10px;
-    line-height: 1.5em;
-    color: #ba8748;
+  display: inline-block;
+  max-width: 60%;
+  padding: 1em 30px;
+  text-align: center;
+  font-family: 'Poiret One', sans-serif;
+  text-transform: uppercase;
+  font-size: 35px;
+  letter-spacing: 10px;
+  line-height: 1.5em;
+  color: #BA8748;
 }
 @media screen and (max-width: 650px) {
-    .text {
-        font-size: 20px;
-        letter-spacing: 2px;
-    }
+  .text {
+    font-size: 20px;
+    letter-spacing: 2px;
+  }
 }
 
 .left {
-    float: right;
-    margin-left: -220px;
+  float: right;
+  margin-left: -220px;
 }
 
 .right {
-    transform: rotate(180deg);
-    float: left;
-    margin-left: -10px;
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
+  float: left;
+  margin-left: -10px;
 }
 
 /* ANIMATION */
 #headline {
-    transform: translate(115px, 0px) scalex(1);
-    /* @include transform-origin(right); */
+  -webkit-transform: translate(115px, 0px) scalex(1);
+  -moz-transform: translate(115px, 0px) scalex(1);
+  -ms-transform: translate(115px, 0px) scalex(1);
+  -o-transform: translate(115px, 0px) scalex(1);
+  transform: translate(115px, 0px) scalex(1);
+  /* @include transform-origin(right); */
 }
 
 .pulse #headline {
-    -webkit-animation: grow 2s infinite;
-    animation: grow 2s infinite;
+  -webkit-animation: grow 2s infinite;
+  -moz-animation: grow 2s infinite;
+  animation: grow 2s infinite;
 }
 
 @keyframes grow {
-    0% {
-        transform: translate(115px, 0px) scalex(1);
-        transform-origin: right;
-    }
-    30% {
-        -webkit-transform: translate(115px, 0px) scalex(2);
-        -moz-transform: translate(8px, 0px) scalex(2);
-        -o-transform: translate(0px, 0px) scalex(2);
-        transform-origin: right;
-    }
+  0% {
+    -webkit-transform: translate(115px, 0px) scalex(1);
+    -moz-transform: translate(115px, 0px) scalex(1);
+    -ms-transform: translate(115px, 0px) scalex(1);
+    -o-transform: translate(115px, 0px) scalex(1);
+    transform: translate(115px, 0px) scalex(1);
+    -webkit-transform-origin: right;
+    -moz-transform-origin: right;
+    -ms-transform-origin: right;
+    -o-transform-origin: right;
+    transform-origin: right;
+  }
+  30% {
+    -webkit-transform: translate(115px, 0px) scalex(2);
+    -moz-transform: translate(8px, 0px) scalex(2);
+    -o-transform: translate(0px, 0px) scalex(2);
+    -webkit-transform-origin: right;
+    -moz-transform-origin: right;
+    -ms-transform-origin: right;
+    -o-transform-origin: right;
+    transform-origin: right;
+  }
 }
 @-webkit-keyframes grow {
-    0% {
-        transform: translate(115px, 0px) scalex(1);
-        transform-origin: right;
-    }
-    30% {
-        -webkit-transform: translate(115px, 0px) scalex(2);
-        -moz-transform: translate(0px, 0px) scalex(2);
-        -o-transform: translate(0px, 0px) scalex(2);
-        transform-origin: right;
-    }
+  0% {
+    -webkit-transform: translate(115px, 0px) scalex(1);
+    -moz-transform: translate(115px, 0px) scalex(1);
+    -ms-transform: translate(115px, 0px) scalex(1);
+    -o-transform: translate(115px, 0px) scalex(1);
+    transform: translate(115px, 0px) scalex(1);
+    -webkit-transform-origin: right;
+    -moz-transform-origin: right;
+    -ms-transform-origin: right;
+    -o-transform-origin: right;
+    transform-origin: right;
+  }
+  30% {
+    -webkit-transform: translate(115px, 0px) scalex(2);
+    -moz-transform: translate(0px, 0px) scalex(2);
+    -o-transform: translate(0px, 0px) scalex(2);
+    -webkit-transform-origin: right;
+    -moz-transform-origin: right;
+    -ms-transform-origin: right;
+    -o-transform-origin: right;
+    transform-origin: right;
+  }
 }
+
+
+
+
 
 /* ------------------------------------------------ */
 /* FOOTER CSS */
