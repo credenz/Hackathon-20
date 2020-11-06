@@ -77,7 +77,6 @@ nav {
 }
 
 .heading {
-    font-size: 9vw;
     text-align: center;
     font-weight: 300;
     margin: auto;
@@ -85,6 +84,10 @@ nav {
     animation: Moveinbottom 0.7s ease-out 0.75s;
     -webkit-animation-fill-mode: backwards;
     animation-fill-mode: backwards;
+}
+
+.display-1 {
+    font-size: 8vw;
 }
 
 .heading p {
