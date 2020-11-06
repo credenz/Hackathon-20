@@ -21,7 +21,7 @@ body {
     background-color: rgb(22, 21, 21) !important;
 }
 
-li {
+.navbar-nav li {
     border-bottom: 3px solid transparent;
 }
 
@@ -33,19 +33,19 @@ nav {
     font-size: 130%;
 }
 
-li::after {
+.navbar-nav li::after {
     display: block;
-    /*content: '';*/
+    content: '';
     border-bottom: 3px solid #fcfcfc;
     transform: scaleX(0);
     transition: transform 250ms ease-in-out;
 }
 
-li:hover::after {
+.navbar-nav li:hover::after {
     transform: scaleX(1);
 }
 
-li.fromLeft::after {
+.navbar-nav li.fromLeft::after {
     transform-origin: 0% 50%;
 }
 
@@ -874,7 +874,6 @@ a {
     }
 }
 
-
 /*SOCIAL MEDIA*/
 .social-menu ul {
     position: absolute;
@@ -893,7 +892,7 @@ a {
     color: #000000;
     font-size: 25px;
     line-height: 50px;
-    transition: .5s;
+    transition: 0.5s;
 }
 .social-menu ul li .fa:hover {
     color: #ffffff;
@@ -908,7 +907,7 @@ a {
     background-color: white;
     text-align: center;
     transition: 0.5s;
-    transform: translate(0,0px);
+    transform: translate(0, 0px);
     box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.5);
 }
 .social-menu ul li a:hover {
@@ -924,21 +923,19 @@ a {
     background-color: #e4405f;
 }
 .social-menu ul li:nth-child(4) a:hover {
-    background-color: #0077B5;
+    background-color: #0077b5;
 }
 @media screen and (max-width: 550px) {
-    .social-menu ul{position: absolute;
+    .social-menu ul {
+        position: absolute;
         top: 90%;
         left: 50%;
     }
-    .social-menu{
+    .social-menu {
         margin-top: -15%;
         margin-bottom: 10%;
     }
-
 }
-
-
 
 /* ------------------------------------------------ */
 /* UPDATES/NOTICES CSS */
