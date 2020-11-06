@@ -61,13 +61,125 @@ li.fromLeft::after {
     margin-top: 2vw;
 }
 
+.pre-heading p {
+    word-spacing: 10px;
+    letter-spacing: 3px;
+}
+
+.pre-heading__pisb {
+    -webkit-animation: Moveinleft 1s ease-out;
+    animation: Moveinleft 1s ease-out;
+}
+
+.pre-heading__present {
+    -webkit-animation: Moveinright 1s ease-out;
+    animation: Moveinright 1s ease-out;
+}
+
 .heading {
     font-size: 9vw;
     text-align: center;
     font-weight: 300;
     margin: auto;
+    -webkit-animation: Moveinbottom 0.5s ease-out 0.75s;
+    animation: Moveinbottom 0.7s ease-out 0.75s;
+    -webkit-animation-fill-mode: backwards;
+    animation-fill-mode: backwards;
 }
 
+.heading p {
+    letter-spacing: 3px;
+}
+
+/* ANIMATIONS */
+@-webkit-keyframes Moveinleft {
+    0% {
+        opacity: 0;
+        transform: translateX(-10rem);
+    }
+
+    80% {
+        transform: translateX(1rem);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+@keyframes Moveinleft {
+    0% {
+        opacity: 0;
+        transform: translateX(-10rem);
+    }
+
+    80% {
+        transform: translateX(1rem);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
+@-webkit-keyframes Moveinright {
+    0% {
+        opacity: 0;
+        transform: translateX(10rem);
+    }
+
+    80% {
+        transform: translateX(-1rem);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
+@keyframes Moveinright {
+    0% {
+        opacity: 0;
+        transform: translateX(10rem);
+    }
+
+    80% {
+        transform: translateX(-1rem);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
+@-webkit-keyframes Moveinbottom {
+    0% {
+        opacity: 0;
+        transform: translateY(10rem);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
+@keyframes Moveinbottom {
+    0% {
+        opacity: 0;
+        transform: translateY(10rem);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
+/* MEDIA QUERIES */
 @media (max-width: 768px) {
     h4 {
         font-size: 110%;
