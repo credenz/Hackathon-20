@@ -928,7 +928,7 @@ a {
 }
 @media screen and (max-width: 550px) {
     .social-menu ul{position: absolute;
-        top: 100%;
+        top: 90%;
         left: 50%;
     }
     .social-menu{
