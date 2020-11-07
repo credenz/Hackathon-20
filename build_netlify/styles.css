@@ -397,10 +397,10 @@ nav {
 } 
 
 .content p{
-        font-size: 1.8em;
-        margin:0.5em;
+        font-size: 1.6em;
+        /*margin:0.5em;*/
         text-align: left;
-        line-height: 40px;
+        line-height: 30px;
     }
 
 
@@ -408,14 +408,14 @@ nav {
     .content p{
         font-size: 1.4em;
         line-height: 30px;
-        margin: 1em;
+       /* margin: 1em;*/
     }
 }
 
 @media screen and (max-width: 768px){
     .content p{
         font-size: 1.2em;
-        line-height: 27px;
+        line-height: 24px;
         margin: 0em;
     }
 }
@@ -444,7 +444,7 @@ nav {
 @media screen and (max-width: 413px){
     .content p{
         font-size: 0.95em;
-        line-height: 24px;
+        line-height: 22px;
         margin: 0em;
     }
 }
