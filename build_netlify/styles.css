@@ -398,7 +398,7 @@ nav {
 
 .content p{
         font-size: 1.8em;
-        margin:1.5em;
+        margin:0.5em;
         text-align: left;
         line-height: 40px;
     }
@@ -408,7 +408,7 @@ nav {
     .content p{
         font-size: 1.4em;
         line-height: 30px;
-        margin: 1.3em;
+        margin: 1em;
     }
 }
 
@@ -416,7 +416,7 @@ nav {
     .content p{
         font-size: 1.2em;
         line-height: 27px;
-        margin: 1.1em;
+        margin: 0em;
     }
 }
 
@@ -424,34 +424,34 @@ nav {
     .content p{
         font-size: 1.1em;
         line-height: 27px;
-        margin: 0.9em;
+        margin: -0.3em;
     }
 }
 @media screen and (max-width: 465px){
     .content p{
         font-size: 1.1em;
         line-height: 27px;
-        margin: 0.1em;
+        margin: -0.5em;
     }
 }
 @media screen and (max-width: 436px){
     .content p{
         font-size: 1.01em;
-        line-height: 27px;
+        line-height: 24px;
         margin: 0em;
     }
 }
 @media screen and (max-width: 413px){
     .content p{
         font-size: 0.95em;
-        line-height: 27px;
+        line-height: 24px;
         margin: 0em;
     }
 }
 @media screen and (max-width: 398px){
     .content p{
-        font-size: 0.8em;
-        line-height: 24px;
+        font-size: 0.9em;
+        line-height: 21px;
         margin: 0em;
     }
 }
