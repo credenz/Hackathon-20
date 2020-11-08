@@ -814,6 +814,30 @@ DEMO
 }
 
 /* ------------------------------------------------ */
+/* FAQ's */
+/* ------------------------------------------------ */
+#faq_modal{
+    padding: 5%;
+  }
+  
+  .faq_card {
+    width: 100% !important;
+    height: 5% !important;
+    box-shadow: 0 4px 8px 0 rgba(17, 240, 191, 0.918) !important;
+    border-radius: 4% !important;
+    padding: 2%;
+    border-color: #ffffff !important;
+    transition: transform 0.2s ease-out !important;
+    transition: all 0.5s ease-out !important;
+}
+
+  .question{
+    padding-right: 90%;
+    color: #ffffff;
+   font-size: 150%; 
+  }
+
+/* ------------------------------------------------ */
 /* JUDGE-PANEL */
 /* ------------------------------------------------ */
 .card {
