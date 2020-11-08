@@ -1150,14 +1150,8 @@ a {
     background-color: #0077b5;
 }
 @media screen and (max-width: 550px) {
-    .social-menu ul {
-        position: absolute;
-        top: 90%;
-        left: 50%;
-    }
     .social-menu {
-        margin-top: -15%;
-        margin-bottom: 10%;
+        margin-bottom: 5%;
     }
 }
 
