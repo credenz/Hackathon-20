@@ -451,7 +451,7 @@ nav {
 @media screen and (max-width: 398px){
     .content p{
         font-size: 0.9em;
-        line-height: 21px;
+        line-height: 19px;
         margin: 0em;
     }
 }
@@ -904,6 +904,7 @@ a {
     font-weight: 400;
     margin-bottom: 15px;
     text-align: center;
+    color: white;
 }
 
 .contact-in h2 i {
@@ -923,6 +924,7 @@ a {
     font-weight: 300;
     margin-bottom: 20px;
     text-align: center;
+    color: white;
 }
 
 .contact-in ul {
