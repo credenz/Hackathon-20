@@ -813,29 +813,6 @@ DEMO
     }
 }
 
-/* ------------------------------------------------ */
-/* FAQ's */
-/* ------------------------------------------------ */
-#faq_modal{
-    padding: 5%;
-  }
-  
-  .faq_card {
-    width: 100% !important;
-    height: 5% !important;
-    box-shadow: 0 4px 8px 0 rgba(17, 240, 191, 0.918) !important;
-    border-radius: 4% !important;
-    padding: 2%;
-    border-color: #ffffff !important;
-    transition: transform 0.2s ease-out !important;
-    transition: all 0.5s ease-out !important;
-}
-
-  .question{
-    padding-right: 90%;
-    color: #ffffff;
-   font-size: 150%; 
-  }
 
 /* ------------------------------------------------ */
 /* JUDGE-PANEL */
@@ -882,6 +859,30 @@ a {
         margin-bottom: 10vw !important;
     }
     /* border: 1px solid red; */
+}
+
+/* ------------------------------------------------ */
+/* FAQ's */
+/* ------------------------------------------------ */
+.accordion_card{
+    box-shadow: 0 4px 8px 0 rgba(17, 240, 191, 0.918);
+    padding: 2%;
+    transition: transform 0.2s ease-out;
+    transition: all 0.5s ease-out;
+    width: 100%;
+    height: 5%;
+    color: white;
+    background-color: transparent;
+}
+
+.question {
+   font-size: 175%;
+   color: white;
+}
+
+.answer{
+    font-size: 150%;
+    color: white;
 }
 
 /* ------------------------------------------------ */
