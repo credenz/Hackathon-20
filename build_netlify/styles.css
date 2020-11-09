@@ -576,23 +576,23 @@ CORE STYLES
 =====
 */
 
-.timeline {
+/* .timeline {
     display: var(--timelineDisplay, grid);
     grid-row-gap: var(--timelineGroupsGap, 2rem);
-}
+} */
 
 /*
 1. If timeline__year isn't displaed the gap between it and timeline__cards isn't displayed too
 */
 
-.timeline__year {
+/* .timeline__year {
     margin-bottom: 1.25rem; /* 1 */
-}
+/* }
 
 .timeline__cards {
     display: var(--timeloneCardsDisplay, grid);
     grid-row-gap: var(--timeloneCardsGap, 1.5rem);
-}
+}  */
 
 /*
 =====
@@ -600,7 +600,7 @@ SKIN
 =====
 */
 
-.timeline {
+/* .timeline {
     --uiTimelineMainColor: var(--timelineMainColor, #222);
     --uiTimelineSecondaryColor: var(--timelineSecondaryColor, #fff);
 
@@ -621,20 +621,20 @@ SKIN
 .timeline__card {
     position: relative;
     margin-left: var(--timelineCardLineGap, 3rem);
-}
+} */
 
 /*
 1. Stoping cut box shadow
 */
 
-.timeline__cards {
+/* .timeline__cards {
     overflow: hidden;
-    padding: 2rem; /* 1 */
-    /* padding-bottom: .25rem;*/ /* 1 */
+    padding: 2rem; 
+    padding-bottom: .25rem; 
     min-width: 60%;
-}
+} */
 
-.timeline__card::before {
+/* .timeline__card::before {
     content: '';
     width: 100%;
     height: var(--timelineCardLineWidth, 2rem);
@@ -647,7 +647,7 @@ SKIN
     top: var(--timelineCardLineTop, 1rem);
     left: -95%;
     z-index: -1;
-}
+} */
 
 /*
 =====
@@ -655,9 +655,9 @@ SETTINGS
 =====
 */
 /**/
-.timeline {
+/* .timeline {
     --timelineMainColor: #4557bb;
-}
+} */
 
 /*
 =====
