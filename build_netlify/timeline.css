@@ -70,7 +70,7 @@ h1.header {
 /* Timeline */
 
 .timeline {
-    border-left: 2px solid #262626;
+    border-left: 2px solid #2f2e41;
 
     color: #fff;
     margin: 50px auto;
@@ -107,11 +107,53 @@ h1.header {
     top: 0;
 }
 
-.timeline .event:after {
+.timeline .event:nth-child(1):after {
     box-shadow: 0 0 0 2px #fff;
     left: -50px;
-    background-color: black;
-    background-image: url('https://rajanlabs.000webhostapp.com/assets/work.png');
+    background-color: #2f2e41;
+    background-image: url('./presentation.svg');
+    background-size: 30px 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50%;
+    height: 51px;
+    width: 51px;
+    content: '';
+    top: 5px;
+}
+.timeline .event:nth-child(2):after {
+    box-shadow: 0 0 0 2px #fff;
+    left: -50px;
+    background-color: #2f2e41;
+    background-image: url('./email.svg');
+    background-size: 30px 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50%;
+    height: 51px;
+    width: 51px;
+    content: '';
+    top: 5px;
+}
+.timeline .event:nth-child(3):after {
+    box-shadow: 0 0 0 2px #fff;
+    left: -50px;
+    background-color: #2f2e41;
+    background-image: url('./lightbulb.svg');
+    background-size: 30px 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50%;
+    height: 51px;
+    width: 51px;
+    content: '';
+    top: 5px;
+}
+.timeline .event:nth-child(4):after {
+    box-shadow: 0 0 0 2px #fff;
+    left: -50px;
+    background-color: #2f2e41;
+    background-image: url('./trophy.svg');
     background-size: 30px 30px;
     background-repeat: no-repeat;
     background-position: center;

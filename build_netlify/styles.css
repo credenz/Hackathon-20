@@ -40,7 +40,7 @@ body {
     box-shadow: none;
 }
 .bg-dark {
-    background-color: rgb(22, 21, 21) !important;
+    background-color: #2f2e41 !important;
 }
 
 .navbar-nav li {
@@ -110,11 +110,8 @@ nav {
     animation: Moveinright 1s ease-out;
 }
 
-.heading {
-    text-align: center;
-    font-weight: 300;
-    margin: auto;
-    -webkit-animation: Moveinbottom 0.5s ease-out 0.75s;
+.animate {
+    -webkit-animation: Moveinbottom 0.7s ease-out 0.75s;
     animation: Moveinbottom 0.7s ease-out 0.75s;
     -webkit-animation-fill-mode: backwards;
     animation-fill-mode: backwards;
@@ -233,6 +230,12 @@ nav {
         /*padding-top: 1.5rem !important;*/
         padding-bottom: 1.5rem !important;
     }
+    .pre-heading__pisb {
+        font-size: 3.2rem !important;
+    }
+    .pre-heading__present {
+        font-size: 3rem !important;
+    }
 }
 
 #parent {
@@ -272,8 +275,8 @@ nav {
 /* ------------------------------------------------ */
 
 .about-shape {
-    height: 24vw;
-    width: 24vw;
+    height: 27vw;
+    width: 27vw;
     float: left;
     shape-outside: circle(50%);
 }
@@ -783,7 +786,7 @@ DEMO
     position: absolute;
     width: 180px;
     height: 180px;
-    border: 5px solid #262626;
+    border: 5px solid #2f2e41;
     left: 50%;
     top: 50%;
     transform-origin: 0 0;
@@ -798,7 +801,7 @@ DEMO
     width: 135px;
     height: 3px;
     bottom: -15px;
-    background-color: #262626;
+    background-color: #2f2e41;
     left: 50%;
     transform: translateX(-50%);
 }
@@ -816,7 +819,7 @@ DEMO
 }
 .snip1326 i {
     font-size: 3.6em;
-    color: #bdbdbd;
+    color: #2f2e41;
 }
 /* ------------------------------------------------ */
 /* ANIMATIONS CSS */
@@ -954,7 +957,7 @@ a {
 .contact-in:nth-child(1) {
     flex: 30%;
     background: url(../images/1.jpg);
-    color: #262626;
+    color: #2f2e41;
 }
 
 .contact-in:nth-child(2) {
@@ -968,7 +971,7 @@ a {
 
 .contact-in h1 {
     font-size: 30px;
-    color: #262626;
+    color: #2f2e41;
     text-transform: uppercase;
     font-weight: 500;
     margin-bottom: 20px;
@@ -980,7 +983,7 @@ a {
     font-weight: 400;
     margin-bottom: 15px;
     text-align: center;
-    color: #262626;
+    color: #2f2e41;
 }
 
 .contact-in h2 i {
@@ -988,7 +991,7 @@ a {
     width: 40px;
     height: 40px;
     margin-right: 10px;
-    background: black;
+    background: #2f2e41;
     color: white;
     border-radius: 50px;
     line-height: 40px;
@@ -1000,7 +1003,7 @@ a {
     font-weight: 300;
     margin-bottom: 20px;
     text-align: center;
-    color: #262626;
+    color: #2f2e41;
 }
 
 .contact-in ul {
@@ -1267,7 +1270,7 @@ a {
     transition: all, var(--transition-time);
     position: relative;
     overflow: hidden;
-    border: 10px solid #262626;
+    border: 10px solid #2f2e41;
     text-decoration: none;
 }
 
