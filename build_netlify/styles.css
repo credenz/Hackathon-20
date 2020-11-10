@@ -9,7 +9,7 @@ html {
     overflow-x: hidden;
 }
 body {
-    background-image: url('./bghexagon.jpg');
+    background-image: url('./Backgroud\ Image.jpg');
     background-attachment: fixed;
     background-size: cover;
     overflow-x: hidden;
@@ -757,12 +757,48 @@ DEMO
 .domainModal {
     background-color: rgb(48, 43, 43);
 }
-
+.modal-header{
+    background-image: linear-gradient(to right,#2f2e41,rgb(117, 117, 121));
+    color: #ffffff;
+}
 .modal-body .lead {
     font-weight: 400 !important;
     color: #000 !important;
 }
 
+.snip1326 * {
+    transition: all 0.3s;
+}
+
+.snip1326 h1::before {
+    content: '';
+    position: absolute;
+    z-index: -50;
+    width: 180px;
+    height: 180px;
+    border: 5px solid #2f2e41;
+    left: 50%;
+    top: 50%;
+    transform-origin: 0 0;
+    transform: rotate(45deg) translate(-50%, -50%);
+    transition: all 0.2s ease-out;
+    border-radius: 10%;
+    background: white;
+    box-shadow: 0px 0px 5px #000;
+}
+.snip1326:hover h1::before {
+    transform: rotate(135deg) translate(-55%, -50%) scale(1.05);
+    box-shadow: 0px 0px 20px rgb(78, 78, 78);
+    z-index: -50;
+}
+
+ .snip1326 div {
+    position: relative;
+    z-index: 50;
+}
+ .snip1326:hover * {
+    transform: scale(1.1);
+}
 .snip1326 {
     position: relative;
     color: #262626;
@@ -892,8 +928,67 @@ hr {
 }
 .social-links {
     padding-bottom: 10px;
-    border-bottom: 1px solid orange;
+    position: relative;
+    
+    
 }
+.card-text p{
+    border-top: 1px solid orange!important;
+}
+
+.social-links ul {
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0;
+    margin-top: -3px;
+    display: flex;
+    margin-bottom:0px !important;
+    
+}
+.social-links ul li {
+    list-style: none;
+    margin: 0px 10px!important;
+    margin-top: 20px!important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    transition: all .5s;
+}
+.social-links ul li:hover {
+    transform: rotate(0deg) skew(0deg) translate(0, -5px)!important;
+}
+
+.social-links ul li .fa:hover{
+    color: white;
+}
+
+.social-links ul li:nth-child(1):hover {
+    background-color: #3b5999;
+}
+.social-links ul li:nth-child(2):hover {
+    background-color: #55acee;
+}
+.social-links ul li:nth-child(3):hover {
+    background: radial-gradient(
+        circle at 30% 107%,
+        #fdf497 0%,
+        #fdf497 5%,
+        #fd5949 45%,
+        #d6249f 60%,
+        #285aeb 90%
+        
+    );
+}
+.social-links ul li:nth-child(4):hover {
+    background-color: #0077b5;
+}
+
+
 a {
     color: inherit;
 }
@@ -906,7 +1001,13 @@ a {
     }
     .card {
         width: 23rem;
+        height:380px !important;
     }
+    .social-links ul {
+        top: 64%;
+        margin-top: -13px;
+    
+}
     /* border: 1px solid red; */
 }
 
@@ -1222,6 +1323,7 @@ a {
         #fd5949 45%,
         #d6249f 60%,
         #285aeb 90%
+        
     );
 }
 .social-menu ul li:nth-child(4) a:hover {
@@ -1231,6 +1333,7 @@ a {
     .social-menu {
         margin-bottom: 5%;
     }
+
 }
 
 /* ------------------------------------------------ */
@@ -1489,7 +1592,7 @@ a {
 }
 @media screen and (max-width: 650px) {
     .text {
-        font-size: 20px;
+        font-size: 25px;
         letter-spacing: 2px;
     }
 }
