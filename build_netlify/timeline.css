@@ -212,6 +212,15 @@ Responsive Stuff
         font-size: 13px;
     }
 
+    .timeline.py-5 {
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+    }
+
+    .timeline.my-5 {
+        margin-top: 0 !important;
+    }
+
     .timeline h3 {
         font-size: 16px;
     }
