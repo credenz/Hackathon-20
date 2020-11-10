@@ -511,6 +511,9 @@ nav {
   padding-top: 5%;
 } */
 
+#timeline{
+    padding-bottom: 7%;
+}
 .r-title {
     margin-top: var(--rTitleMarginTop, 0) !important;
     margin-bottom: var(--rTitleMarginBottom, 0) !important;
