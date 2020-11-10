@@ -1014,13 +1014,14 @@ a {
 /* ------------------------------------------------ */
 /* FAQ's */
 /* ------------------------------------------------ */
+
 .accordion_card {
     box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.3);
-    padding: 2%;
+    padding: 1.25%;
     transition: transform 0.2s ease-out;
     transition: all 0.5s ease-out;
     width: 100%;
-    height: 5%;
+    height: 10%;
     color: #262626;
     background-color: #fff;
 }
