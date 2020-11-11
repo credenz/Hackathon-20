@@ -460,7 +460,7 @@ nav {
 
 @media screen and (max-width: 768px) {
     .content p {
-        font-size: 1.2em;
+        font-size: 1.4em;
         line-height: 24px;
         margin: 0em;
     }
@@ -468,36 +468,36 @@ nav {
 
 @media screen and (max-width: 526px) {
     .content p {
-        font-size: 1.1em;
-        line-height: 27px;
+        font-size: 1.4em;
+        line-height: 24px;
         margin: -0.3em;
     }
 }
 @media screen and (max-width: 465px) {
     .content p {
-        font-size: 1.1em;
-        line-height: 27px;
+        font-size: 1.3em;
+        line-height: 24px;
         margin: -0.5em;
     }
 }
 @media screen and (max-width: 436px) {
     .content p {
-        font-size: 1.01em;
-        line-height: 24px;
+        font-size: 1.2em;
+        line-height: 22px;
         margin: 0em;
     }
 }
 @media screen and (max-width: 413px) {
     .content p {
-        font-size: 0.95em;
-        line-height: 22px;
+        font-size: 1.1em;
+        line-height: 23px;
         margin: 0em;
     }
 }
 @media screen and (max-width: 398px) {
     .content p {
-        font-size: 0.9em;
-        line-height: 19px;
+        font-size: 1.1em;
+        line-height: 20px;
         margin: 0em;
     }
 }
@@ -1244,6 +1244,9 @@ a {
     .contact-in p {
         font-size: 18px !important;
     }
+    iframe{
+        height: 20em;
+    }
 }
 
 @media only screen and (max-width: 480px) {
@@ -1257,6 +1260,9 @@ a {
 
     .contact-in:nth-child(3) {
         flex: 100%;
+    }
+    iframe{
+        height: 18em;
     }
 }
 
