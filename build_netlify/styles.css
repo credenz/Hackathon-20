@@ -9,7 +9,7 @@ html {
     overflow-x: hidden;
 }
 body {
-    background-image: url('./alexander-wende-Hzkp3JPUxVY-unsplash.jpg');
+    background-image: url('./bg-body.jpg');
     background-attachment: fixed;
     background-size: cover;
     overflow-x: hidden;
@@ -103,6 +103,7 @@ nav {
 .pre-heading p {
     word-spacing: 10px;
     letter-spacing: 3px;
+    margin-top: 3.5vw;
 }
 
 .pre-heading__pisb {
@@ -230,6 +231,15 @@ nav {
         height: 100vh !important;
         background-position: center !important;
     }
+
+    .mt-res {
+        margin-top: 20vh;
+    }
+
+    .pre-heading__present {
+        margin-top: 8vh !important;
+    }
+
     .commonHeight {
         height: -webkit-fit-content;
         height: -moz-fit-content;
@@ -773,7 +783,7 @@ DEMO
     background-color: rgb(48, 43, 43);
 }
 .modal-header {
-    background-image: linear-gradient(to right, #184850, #17a2b8);
+    background-image: linear-gradient(to right, #383063, #8175c7);
     color: #ffffff;
 }
 .modal-body .lead {
@@ -804,7 +814,7 @@ DEMO
 .snip1326:hover h1::before {
     transform: rotate(135deg) translate(-55%, -50%) scale(1.05);
     box-shadow: 0px 0px 20px rgb(78, 78, 78);
-    background: #17a2b8;
+    background: #8175c7;
     z-index: -50;
 }
 
@@ -1570,6 +1580,7 @@ a {
     display: inline-block;
     position: absolute;
     top: 40%;
+    color: #2f2e41;
 }
 .lines svg {
     width: 200px;
@@ -1604,7 +1615,7 @@ a {
     font-size: 35px;
     letter-spacing: 10px;
     line-height: 1.5em;
-    color: #ba8748;
+    color: #2f2e41;
 }
 @media screen and (max-width: 650px) {
     .text {
@@ -1870,7 +1881,7 @@ footer {
 /* ------------------------------------------------ */
 #button {
     display: inline-block;
-    background-color: #b78547;
+    background-color: #2f2e41;
     width: 50px;
     height: 50px;
     text-align: center;
