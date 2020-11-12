@@ -89,6 +89,7 @@ nav {
     background-attachment: fixed;
     background-size: cover;
     color: #fff !important;
+    margin-bottom: 0 !important;
 }
 
 .commonHeight {
@@ -295,6 +296,15 @@ nav {
 /* ------------------------------------------------ */
 /* ABOUT CSS */
 /* ------------------------------------------------ */
+
+#about {
+    background-image: linear-gradient(
+        to bottom,
+        rgb(255, 255, 255, 1),
+        rgb(255, 255, 255, 0)
+    );
+    margin-top: 0 !important;
+}
 
 .about-shape {
     height: 27vw;
@@ -783,7 +793,7 @@ DEMO
     background-color: rgb(48, 43, 43);
 }
 .modal-header {
-    background-image: linear-gradient(to right, #383063, #8175c7);
+    background-image: linear-gradient(to right, #164858, #8cbecf);
     color: #ffffff;
 }
 .modal-body .lead {
@@ -814,7 +824,7 @@ DEMO
 .snip1326:hover h1::before {
     transform: rotate(135deg) translate(-55%, -50%) scale(1.05);
     box-shadow: 0px 0px 20px rgb(78, 78, 78);
-    background: #8175c7;
+    background: #8cbecf;
     z-index: -50;
 }
 
@@ -1037,7 +1047,7 @@ a {
 
 .accordion_card {
     box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.3);
-    padding: 1.25%;
+    margin: 1.3%;
     transition: transform 0.2s ease-out;
     transition: all 0.5s ease-out;
     width: 100%;
@@ -1702,6 +1712,30 @@ footer {
 .order-12 {
     order: 0 !important;
 }
+/* ICON ANIMATION */
+.social-icons ul li:hover {
+    transform: rotate(0deg) skew(0deg) translate(0, -5px) !important;
+}
+
+.social-icons ul li .fa:hover {
+    color: white !important;
+}
+
+.social-icons ul {
+    margin-top: 7px;
+}
+
+.social-icons ul li:first-child {
+    margin-right: 0px !important;
+}
+
+.social-icons ul li:nth-child(1):hover {
+    background-color: #0077b5 !important;
+}
+.social-icons ul li:nth-child(2):hover {
+    background-color: rgb(11, 128, 0) !important;
+}
+
 @media (max-width: 768px) {
     .card.card-dev {
         width: 8rem !important;
@@ -1715,6 +1749,14 @@ footer {
     }
     .social-menu {
         margin-top: 20px !important;
+    }
+
+    .social-icons ul li .fa {
+        font-size: 22px;
+    }
+
+    .social-icons ul {
+        margin-top: 4px;
     }
 
     .footer.py-4 {
