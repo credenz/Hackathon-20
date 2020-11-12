@@ -357,7 +357,7 @@ nav {
     /*  transform: translate(-50%, -50%);*/
     width: 1300px;
     height: 500px;
-    background: rgb(47, 46, 65, 0.99);
+    background: rgb(48, 78, 96, 0.99);
     box-sizing: border-box;
     overflow: hidden;
     box-shadow: 0 20px 50px rgb(23, 32, 90);
@@ -1424,9 +1424,9 @@ a {
     transition: all, var(--transition-time);
     position: relative;
     overflow: hidden;
-    border: 10px solid #304e60;
+    border: 10px solid #8cbecf;
     text-decoration: none;
-    background-color: rgb(47, 46, 65, 0.99);
+    background-color: rgb(48, 78, 96, 0.99);
 }
 
 .card1:hover {
@@ -1500,7 +1500,7 @@ a {
 }
 
 .card1:after {
-    background: #2f2e41;
+    background: #304e60;
     width: 200%;
     height: 200%;
 }
