@@ -347,7 +347,7 @@ nav {
     /*  transform: translate(-50%, -50%);*/
     width: 1300px;
     height: 500px;
-    background: rgb(47, 46, 65, 0.93);
+    background: rgb(47, 46, 65, 0.99);
     box-sizing: border-box;
     overflow: hidden;
     box-shadow: 0 20px 50px rgb(23, 32, 90);
@@ -1414,9 +1414,9 @@ a {
     transition: all, var(--transition-time);
     position: relative;
     overflow: hidden;
-    border: 10px solid #2f2e41;
+    border: 10px solid #4b4a63;
     text-decoration: none;
-    background-color: white;
+    background-color: #2f2e41;
 }
 
 .card1:hover {
@@ -1427,7 +1427,7 @@ a {
     margin: 0;
     font-size: 2em;
     line-height: 1.2em;
-    margin-bottom: 2em;
+    color: white;
 }
 
 .card1 p {
@@ -1435,6 +1435,8 @@ a {
     /*font-family: "Open Sans";*/
     margin-top: 0.5em;
     line-height: 2em;
+    color: white;
+    margin-bottom: 0px;
 }
 
 .card1 .tags {
@@ -1464,6 +1466,7 @@ a {
     padding: 1em;
     line-height: 1em;
     opacity: 0.8;
+    color: white;
 }
 
 .card1:before,
@@ -1487,7 +1490,7 @@ a {
 }
 
 .card1:after {
-    background: white;
+    background: #2f2e41;
     width: 200%;
     height: 200%;
 }
