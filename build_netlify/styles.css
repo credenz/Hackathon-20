@@ -9,7 +9,7 @@ html {
     overflow-x: hidden;
 }
 body {
-    background-image: url('./bg.jpg');
+    background-image: url('./alexander-wende-Hzkp3JPUxVY-unsplash.jpg');
     background-attachment: fixed;
     background-size: cover;
     overflow-x: hidden;
@@ -225,6 +225,10 @@ nav {
 @media (max-width: 768px) {
     h4 {
         font-size: 110%;
+    }
+    #home {
+        height: 100vh !important;
+        background-position: center !important;
     }
     .commonHeight {
         height: -webkit-fit-content;
@@ -519,7 +523,7 @@ nav {
   padding-top: 5%;
 } */
 
-#timeline{
+#timeline {
     padding-bottom: 7%;
 }
 .r-title {
@@ -769,7 +773,7 @@ DEMO
     background-color: rgb(48, 43, 43);
 }
 .modal-header {
-    background-image: linear-gradient(to right, #2f2e41, rgb(117, 117, 121));
+    background-image: linear-gradient(to right, #184850, #17a2b8);
     color: #ffffff;
 }
 .modal-body .lead {
@@ -1247,7 +1251,7 @@ a {
     .contact-in p {
         font-size: 18px !important;
     }
-    iframe{
+    iframe {
         height: 20em;
     }
 }
@@ -1264,7 +1268,7 @@ a {
     .contact-in:nth-child(3) {
         flex: 100%;
     }
-    iframe{
+    iframe {
         height: 18em;
     }
 }
