@@ -1424,7 +1424,7 @@ a {
     transition: all, var(--transition-time);
     position: relative;
     overflow: hidden;
-    border: 10px solid #51707b;
+    border: 10px solid #27373d;
     text-decoration: none;
     background-color: rgb(48, 78, 96, 0.99);
 }
