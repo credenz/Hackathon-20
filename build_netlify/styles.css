@@ -353,6 +353,17 @@ nav {
     text-decoration: none;
     color: inherit;
 }
+@media(max-width:768px)
+{
+    .registration-link{
+        font-size: 15px !important;
+        text-decoration: none;
+    }
+    .registration-link:hover{
+        text-decoration: none;
+        color:inherit;
+    }
+}
 .content h2 {
     font-size: 19px;
 }
