@@ -1300,6 +1300,7 @@ a {
 @media (max-width: 768px) {
     .contact-in h1 {
         font-size: 25px !important;
+        text-align: center;
     }
     .contact-in h2 {
         font-size: 22px !important;
