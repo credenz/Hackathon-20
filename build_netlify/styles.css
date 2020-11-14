@@ -342,7 +342,18 @@ nav {
     margin-bottom: 300px !important;
 }
 
+<<<<<<< HEAD
 #rules {
+=======
+@media(max-width: 600px){
+    section#domains{
+        margin-bottom: 0px !important;
+    }
+
+}
+
+#rules{
+>>>>>>> 63a6368aa41c018f0c09ca3d281acd1d10e443b9
     margin-bottom: 200px !important;
 }
 
@@ -397,7 +408,7 @@ nav {
 .registration-link {
     font-size: 20px !important;
     text-decoration: none;
-    color: #0077b5;
+    color:  #e77e21;
 }
 
 .registration-link:hover {
@@ -502,7 +513,7 @@ nav {
     position: absolute;
     width: 100%;
     height: 2px;
-    background: #8cbecf;
+    background: #e77e21;
     -webkit-animation: animate 4s linear infinite;
     animation: animate 4s linear infinite;
 }
