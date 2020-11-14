@@ -1096,6 +1096,7 @@ a {
 /* ------------------------------------------------ */
 /* CONTACT US CSS */
 /* ------------------------------------------------ */
+
 .contact-wrap {
   width: 80%;
   height: auto;
@@ -1322,6 +1323,10 @@ a {
 
   .contact-in:nth-child(3) {
     flex: 100%;
+  }
+
+  .contact-in p{
+    font-size: 15px !important;
   }
 }
 
