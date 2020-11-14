@@ -1136,15 +1136,16 @@ a {
   text-transform: uppercase;
   font-weight: 500;
   margin-bottom: 20px;
-  text-align: center;
+  margin-left: 1.5em;
+  
 }
 
 .contact-in h2 {
   font-size: 30px;
   font-weight: 400;
   margin-bottom: 15px;
-  text-align: center;
   color: #2f2e41;
+  margin-left: 1.5em;
 }
 
 .contact-in h2 i {
@@ -1165,6 +1166,7 @@ a {
   margin-bottom: 20px;
   text-align: center;
   color: #2f2e41;
+  margin-left: 1.5em;
 }
 
 .contact-in ul {
