@@ -938,7 +938,7 @@ DEMO
 .snip1326:hover h1::before {
     transform: rotate(135deg) translate(-55%, -50%) scale(1.05);
     box-shadow: 0px 0px 20px rgb(78, 78, 78);
-    background: #f1a563;
+    background: #76bfe4;
     z-index: -50;
 }
 
