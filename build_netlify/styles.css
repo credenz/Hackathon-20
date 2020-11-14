@@ -97,13 +97,23 @@ nav {
 @media only screen and (orientation: portrait) and (device-width: 320px),
     (device-width: 768px) {
     header {
+<<<<<<< HEAD
         background-attachment: scroll;
+=======
+      -webkit-background-size: auto 150% !important;
+      background-attachment: scroll !important;
+>>>>>>> fd07352d50ecb6abd8506b37c202abbf20cf7177
     }
 }
 @media only screen and (orientation: landscape) and (device-width: 320px),
     (device-width: 768px) {
     header {
+<<<<<<< HEAD
         background-attachment: scroll;
+=======
+      -webkit-background-size: 150% auto !important;
+      background-attachment: scroll !important;
+>>>>>>> fd07352d50ecb6abd8506b37c202abbf20cf7177
     }
 }
 
