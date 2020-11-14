@@ -338,6 +338,14 @@ nav {
     margin-top: 0 !important;
 }
 
+#domains{
+    margin-bottom: 300px !important;
+}
+
+#rules{
+    margin-bottom: 200px !important;
+}
+
 .about-shape {
     height: 27vw;
     width: 27vw;
