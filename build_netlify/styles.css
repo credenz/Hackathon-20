@@ -9,12 +9,9 @@ html {
   overflow-x: hidden;
 }
 body {
-  background-image: linear-gradient(
-    to bottom,
-    rgb(255, 255, 255, 1),
-    rgb(255, 255, 255, 0.6)
-  ),url('./bg-body.jpg');
+  background-image:url('./bg-body2.png');
   background-attachment: fixed;
+  width: 100%;
   background-size: cover;
   overflow-x: hidden;
   position: relative;
@@ -88,7 +85,7 @@ nav {
 /* ------------------------------------------------ */
 
 #home {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
     url('./homebggif1.gif')!important;
   background-attachment: fixed;
   background-size: cover;
@@ -121,6 +118,10 @@ nav {
 .pre-heading__present {
   -webkit-animation: Moveinright 1s ease-out;
   animation: Moveinright 1s ease-out;
+  color: #fff !important;
+}
+
+.pre-heading__association {
   color: #fff !important;
 }
 
@@ -353,10 +354,11 @@ nav {
 .registration-link {
   font-size: 20px !important;
   text-decoration: none;
+  color: #0077b5;
 }
 .registration-link:hover {
   text-decoration: none;
-  color: inherit;
+  color: inherit !important;
 }
 @media (max-width: 768px) {
   .registration-link {
