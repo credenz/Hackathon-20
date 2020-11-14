@@ -4,10 +4,12 @@
     padding-right: 0;
     font-family: 'Lato', sans-serif;
 }
+
 html {
     scroll-behavior: smooth;
     overflow-x: hidden;
 }
+
 body {
     background-image: url('./bghexagon.jpg');
     background-attachment: fixed;
@@ -16,7 +18,9 @@ body {
     position: relative;
 }
 
+
 /* MEDIA QUERIES */
+
 @media (max-width: 768px) {
     * {
         font-size: 12px;
@@ -27,18 +31,27 @@ body {
     height: 500px;
     width: 500px;
 }
+
 .section {
     color: #262626 !important;
 }
+
+
 /* ------------------------------------------------ */
+
+
 /* NAVBAR CSS */
+
+
 /* ------------------------------------------------ */
+
 .navbar-toggler:focus,
 .navbar-toggler:active,
 .navbar-toggler-icon:focus {
     outline: none;
     box-shadow: none;
 }
+
 .bg-dark {
     background-color: #2f2e41 !important;
 }
@@ -71,7 +84,9 @@ nav {
     transform-origin: 0% 50%;
 }
 
+
 /* MEDIA QUERIES */
+
 @media (max-width: 768px) {
     .pisblogo {
         width: 120px;
@@ -79,9 +94,15 @@ nav {
     }
 }
 
+
 /* ------------------------------------------------ */
+
+
 /* HOME CSS */
+
+
 /* ------------------------------------------------ */
+
 .section {
     color: #fff;
 }
@@ -125,32 +146,31 @@ nav {
     letter-spacing: 3px;
 }
 
+
 /* ANIMATIONS */
+
 @-webkit-keyframes Moveinleft {
     0% {
         opacity: 0;
         transform: translateX(-10rem);
     }
-
     80% {
         transform: translateX(1rem);
     }
-
     100% {
         opacity: 1;
         transform: translate(0);
     }
 }
+
 @keyframes Moveinleft {
     0% {
         opacity: 0;
         transform: translateX(-10rem);
     }
-
     80% {
         transform: translateX(1rem);
     }
-
     100% {
         opacity: 1;
         transform: translate(0);
@@ -162,11 +182,9 @@ nav {
         opacity: 0;
         transform: translateX(10rem);
     }
-
     80% {
         transform: translateX(-1rem);
     }
-
     100% {
         opacity: 1;
         transform: translate(0);
@@ -178,11 +196,9 @@ nav {
         opacity: 0;
         transform: translateX(10rem);
     }
-
     80% {
         transform: translateX(-1rem);
     }
-
     100% {
         opacity: 1;
         transform: translate(0);
@@ -194,7 +210,6 @@ nav {
         opacity: 0;
         transform: translateY(10rem);
     }
-
     100% {
         opacity: 1;
         transform: translate(0);
@@ -206,14 +221,15 @@ nav {
         opacity: 0;
         transform: translateY(10rem);
     }
-
     100% {
         opacity: 1;
         transform: translate(0);
     }
 }
 
+
 /* MEDIA QUERIES */
+
 @media (max-width: 768px) {
     h4 {
         font-size: 110%;
@@ -244,11 +260,14 @@ nav {
     position: relative;
 }
 
+
 /* Animation */
+
 #parent {
     -webkit-animation: animated-text 2s steps(30, end) 1s 1 normal both;
     animation: animated-text 2s steps(30, end) 1s 1 normal both;
 }
+
 
 /* text animation */
 
@@ -270,8 +289,13 @@ nav {
     }
 }
 
+
 /* ------------------------------------------------ */
+
+
 /* ABOUT CSS */
+
+
 /* ------------------------------------------------ */
 
 .about-shape {
@@ -280,10 +304,12 @@ nav {
     float: left;
     shape-outside: circle(50%);
 }
+
 .about-img {
     height: 24vw;
     width: 24vw;
 }
+
 .about-text {
     font-size: 150%;
     text-align: justify;
@@ -310,8 +336,14 @@ nav {
         margin-bottom: 0 !important;
     }
 }
+
+
 /* ------------------------------------------------ */
+
+
 /* Rules CSS */
+
+
 /* ------------------------------------------------ */
 
 .content h2 {
@@ -325,7 +357,7 @@ nav {
     /*  transform: translate(-50%, -50%);*/
     width: 1300px;
     height: 500px;
-    background: rgb(47,46,65,0.93);
+    background: rgb(47, 46, 65, 0.93);
     box-sizing: border-box;
     overflow: hidden;
     box-shadow: 0 20px 50px rgb(23, 32, 90);
@@ -373,10 +405,12 @@ nav {
     box-sizing: border-box;
 }
 
+
 /*.box span:nth-child(1)
 {
   transform:rotate(0deg);
 }*/
+
 
 /*.box span:nth-child(2)
 {
@@ -386,6 +420,7 @@ nav {
 .box span:nth-child(3) {
     transform: rotate(180deg);
 }
+
 
 /*.box span:nth-child(4)
 {
@@ -415,7 +450,6 @@ nav {
         transform: scaleX(1);
         transform-origin: right;
     }
-
     100% {
         transform: scaleX(0);
         transform-origin: right;
@@ -435,7 +469,6 @@ nav {
         transform: scaleX(1);
         transform-origin: right;
     }
-
     100% {
         transform: scaleX(0);
         transform-origin: right;
@@ -473,6 +506,7 @@ nav {
         margin: -0.3em;
     }
 }
+
 @media screen and (max-width: 465px) {
     .content p {
         font-size: 1.1em;
@@ -480,6 +514,7 @@ nav {
         margin: -0.5em;
     }
 }
+
 @media screen and (max-width: 436px) {
     .content p {
         font-size: 1.01em;
@@ -487,6 +522,7 @@ nav {
         margin: 0em;
     }
 }
+
 @media screen and (max-width: 413px) {
     .content p {
         font-size: 0.95em;
@@ -494,6 +530,7 @@ nav {
         margin: 0em;
     }
 }
+
 @media screen and (max-width: 398px) {
     .content p {
         font-size: 0.9em;
@@ -502,9 +539,16 @@ nav {
     }
 }
 
+
 /* ------------------------------------------------ */
+
+
 /* TIMELINE CSS */
+
+
 /* ------------------------------------------------ */
+
+
 /* .timeline_heading{
   text-align: center;
   color: #ba8748;
@@ -515,6 +559,7 @@ nav {
     margin-top: var(--rTitleMarginTop, 0) !important;
     margin-bottom: var(--rTitleMarginBottom, 0) !important;
 }
+
 
 /* 
 styles of typography  https://github.com/melnik909/css-typography
@@ -530,6 +575,7 @@ styles of typography  https://github.com/melnik909/css-typography
     margin-top: 0;
 }
 
+
 /*
 text component
 */
@@ -539,9 +585,11 @@ text component
     font-size: var(--textFontSize, 1rem);
 }
 
+
 /*
 time component
 */
+
 
 /*
 core styles
@@ -551,6 +599,7 @@ core styles
     display: var(--timeDisplay, inline-flex);
 }
 
+
 /*
 extensions
 */
@@ -559,6 +608,7 @@ extensions
     margin-left: var(--timelineMounthMarginLeft, 0.25em);
 }
 
+
 /*
 skin
 */
@@ -566,16 +616,17 @@ skin
 .time {
     padding: var(--timePadding, 0.25rem 1.25rem 0.25rem);
     background-color: var(--timeBackgroundColor, #f0f0f0);
-
     font-size: var(--timeFontSize, 0.75rem);
     font-weight: var(--timeFontWeight, 700);
     text-transform: var(--timeTextTransform, uppercase);
     color: var(--timeColor, currentColor);
 }
 
+
 /*
 card component
 */
+
 
 /*
 core styles
@@ -589,21 +640,18 @@ core styles
     margin-top: var(--cardContentMarginTop, 0.5rem);
 }
 
+
 /*
 skin
 */
 
 .card {
     border-radius: var(--timelineCardBorderRadius, 2px);
-    border-left: var(--timelineCardBorderLeftWidth, 3px) solid
-        var(--timelineCardBorderLeftColor, var(--uiTimelineMainColor));
-    box-shadow: var(
-        --timelineCardBoxShadow,
-        0 1px 3px 0 rgba(0, 0, 0, 0.12),
-        0 1px 2px 0 rgba(0, 0, 0, 0.24)
-    );
+    border-left: var(--timelineCardBorderLeftWidth, 3px) solid var(--timelineCardBorderLeftColor, var(--uiTimelineMainColor));
+    box-shadow: var( --timelineCardBoxShadow, 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 1px 2px 0 rgba(0, 0, 0, 0.24));
     /* background-color: var(--timelineCardBackgroundColor, #fff);*/
 }
+
 
 /*
 extensions
@@ -614,23 +662,29 @@ extensions
     font-size: var(--cardTitleFontSize, 1.25rem);
 }
 
+
 /*
 =====
 CORE STYLES
 =====
 */
 
+
 /* .timeline {
     display: var(--timelineDisplay, grid);
     grid-row-gap: var(--timelineGroupsGap, 2rem);
 } */
 
+
 /*
 1. If timeline__year isn't displaed the gap between it and timeline__cards isn't displayed too
 */
 
+
 /* .timeline__year {
     margin-bottom: 1.25rem; /* 1 */
+
+
 /* }
 
 .timeline__cards {
@@ -638,11 +692,13 @@ CORE STYLES
     grid-row-gap: var(--timeloneCardsGap, 1.5rem);
 }  */
 
+
 /*
 =====
 SKIN
 =====
 */
+
 
 /* .timeline {
     --uiTimelineMainColor: var(--timelineMainColor, #222);
@@ -667,9 +723,11 @@ SKIN
     margin-left: var(--timelineCardLineGap, 3rem);
 } */
 
+
 /*
 1. Stoping cut box shadow
 */
+
 
 /* .timeline__cards {
     overflow: hidden;
@@ -677,6 +735,7 @@ SKIN
     padding-bottom: .25rem; 
     min-width: 60%;
 } */
+
 
 /* .timeline__card::before {
     content: '';
@@ -693,15 +752,20 @@ SKIN
     z-index: -1;
 } */
 
+
 /*
 =====
 SETTINGS
 =====
 */
+
+
 /**/
+
 .timeline {
     --timelineMainColor: #4557bb;
 }
+
 
 /*
 =====
@@ -710,8 +774,7 @@ DEMO
 */
 
 #start {
-    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Open Sans,
-        Ubuntu, Fira Sans, Helvetica Neue, sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Open Sans, Ubuntu, Fira Sans, Helvetica Neue, sans-serif;
     color: #222;
     margin: 0;
     display: flex;
@@ -745,8 +808,13 @@ DEMO
     }
 }
 
+
 /* ------------------------------------------------ */
+
+
 /* DOMAINS CSS */
+
+
 /* ------------------------------------------------ */
 
 .mt-10 {
@@ -773,18 +841,22 @@ DEMO
     box-sizing: border-box;
     cursor: pointer;
 }
+
 .snip1326 h1,
 .snip1326 h5 {
     margin: 0;
     text-transform: uppercase;
 }
+
 .snip1326 h1 {
     font-size: 150%;
     position: relative;
 }
+
 .snip1326 h1:before {
     content: '';
     position: absolute;
+    z-index: -50;
     width: 180px;
     height: 180px;
     border: 5px solid #2f2e41;
@@ -794,6 +866,23 @@ DEMO
     transform: rotate(45deg) translate(-50%, -50%);
     transition: all 0.2s ease-out;
     border-radius: 10%;
+    background: white;
+    box-shadow: 0px 0px 5px #000;
+}
+
+.snip1326:hover h1::before {
+    transform: rotate(135deg) translate(-55%, -50%) scale(1.05);
+    box-shadow: 0px 0px 20px rgb(78, 78, 78);
+    z-index: -50;
+}
+
+.snip1326 div {
+    position: relative;
+    z-index: 50;
+}
+
+.snip1326:hover * {
+    transform: scale(1.1);
 }
 
 .snip1326 h1:after {
@@ -806,24 +895,33 @@ DEMO
     left: 50%;
     transform: translateX(-50%);
 }
+
 .snip1326 h5 {
     font-size: 0.7em;
     font-weight: 800;
     padding-bottom: 10px;
     position: relative;
 }
+
 .snip1326 .icon {
     display: inline-block;
     margin-bottom: 1vw;
     height: 3vw;
     width: auto;
 }
+
 .snip1326 i {
     font-size: 3.6em;
     color: #2f2e41;
 }
+
+
 /* ------------------------------------------------ */
+
+
 /* ANIMATIONS CSS */
+
+
 /* ------------------------------------------------ */
 
 @media (max-width: 769px) {
@@ -857,9 +955,15 @@ DEMO
     }
 }
 
+
 /* ------------------------------------------------ */
+
+
 /* JUDGE-PANEL */
+
+
 /* ------------------------------------------------ */
+
 .card {
     width: 21rem;
     height: 450px !important;
@@ -867,36 +971,45 @@ DEMO
     transition: transform 0.2s ease-out !important;
     transition: all 0.5s ease-out !important;
 }
+
 .card:hover {
     box-shadow: 0px 4px 8px rgba(38, 38, 38, 0.2) !important;
     transform: scale(1.05) !important;
 }
+
 .card-img-top {
     height: 15rem;
 }
+
 .card-img-top {
     border-radius: 25px !important;
     border-bottom: 1px solid gainsboro;
 }
+
 .card-body {
     padding-top: 5px;
 }
+
 .card-title {
     font-size: 1.7rem;
 }
+
 hr {
     width: 50px;
     border-bottom: 1px solid orange;
     margin-top: -10px;
     margin-bottom: 15px;
 }
+
 .social-links {
     padding-bottom: 10px;
     border-bottom: 1px solid orange;
 }
+
 a {
     color: inherit;
 }
+
 @media (max-width: 768px) {
     .resmb {
         margin-bottom: 10vw !important;
@@ -910,9 +1023,15 @@ a {
     /* border: 1px solid red; */
 }
 
+
 /* ------------------------------------------------ */
+
+
 /* FAQ's */
+
+
 /* ------------------------------------------------ */
+
 .accordion_card {
     box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.3);
     padding: 2%;
@@ -943,9 +1062,15 @@ a {
     color: #262626;
 }
 
+
 /* ------------------------------------------------ */
+
+
 /* CONTACT US CSS */
+
+
 /* ------------------------------------------------ */
+
 .contact-wrap {
     width: 80%;
     height: auto;
@@ -1145,11 +1270,9 @@ a {
     .contact-in:nth-child(1) {
         flex: 50%;
     }
-
     .contact-in:nth-child(2) {
         flex: 50%;
     }
-
     .contact-in:nth-child(3) {
         flex: 100%;
     }
@@ -1159,17 +1282,17 @@ a {
     .contact-in:nth-child(1) {
         flex: 50%;
     }
-
     .contact-in:nth-child(2) {
         flex: 50%;
     }
-
     .contact-in:nth-child(3) {
         flex: 100%;
     }
 }
 
+
 /*SOCIAL MEDIA*/
+
 .social-menu ul {
     position: absolute;
     top: 50%;
@@ -1179,20 +1302,24 @@ a {
     margin: 0;
     display: flex;
 }
+
 .social-menu ul li {
     list-style: none;
     margin: 0 10px;
 }
+
 .social-menu ul li .fa {
     color: #000000;
     font-size: 25px;
     line-height: 50px;
     transition: 0.5s;
 }
+
 .social-menu ul li .fa:hover {
     color: #ffffff;
     text-decoration: none;
 }
+
 .social-menu ul li a {
     position: relative;
     display: block;
@@ -1205,36 +1332,40 @@ a {
     transform: translate(0, 0px);
     box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.5);
 }
+
 .social-menu ul li a:hover {
     transform: rotate(0deg) skew(0deg) translate(0, -10px);
 }
+
 .social-menu ul li:nth-child(1) a:hover {
     background-color: #3b5999;
 }
+
 .social-menu ul li:nth-child(2) a:hover {
     background-color: #55acee;
 }
+
 .social-menu ul li:nth-child(3) a:hover {
-    background: radial-gradient(
-        circle at 30% 107%,
-        #fdf497 0%,
-        #fdf497 5%,
-        #fd5949 45%,
-        #d6249f 60%,
-        #285aeb 90%
-    );
+    background: radial-gradient( circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%);
 }
+
 .social-menu ul li:nth-child(4) a:hover {
     background-color: #0077b5;
 }
+
 @media screen and (max-width: 550px) {
     .social-menu {
         margin-bottom: 5%;
     }
 }
 
+
 /* ------------------------------------------------ */
+
+
 /* UPDATES/NOTICES CSS */
+
+
 /* ------------------------------------------------ */
 
 :root {
@@ -1266,11 +1397,7 @@ a {
 .card1 {
     /*font-family: "Heebo";*/
     --bg-filter-opacity: 0.5;
-    background-image: linear-gradient(
-            rgba(0, 0, 0, var(--bg-filter-opacity)),
-            rgba(0, 0, 0, var(--bg-filter-opacity))
-        ),
-        var(--bg-img);
+    background-image: linear-gradient( rgba(0, 0, 0, var(--bg-filter-opacity)), rgba(0, 0, 0, var(--bg-filter-opacity))), var(--bg-img);
     height: 20em;
     width: 15em;
     font-size: 1.5em;
@@ -1398,7 +1525,9 @@ a {
     font-weight: normal;
 }
 
+
 /* MEDIA QUERIES */
+
 @media screen and (max-width: 1285px) {
     .cards-wrapper {
         grid-template-columns: 1fr 1fr;
@@ -1437,7 +1566,9 @@ a {
     }
 }
 
+
 /* HEADLINE STRUCTURE */
+
 .headline {
     display: block;
     /*  width: 60%;*/
@@ -1452,22 +1583,26 @@ a {
     position: absolute;
     top: 40%;
 }
+
 .lines svg {
     width: 200px;
     height: 32px;
 }
+
 @media screen and (max-width: 768px) {
     .lines svg {
         width: 90px;
         height: 15px;
     }
 }
+
 @media screen and (max-width: 420px) {
     .lines svg {
         width: 60px;
         height: 15px;
     }
 }
+
 @media screen and (max-width: 420px) {
     .lines svg {
         width: 40px;
@@ -1487,6 +1622,7 @@ a {
     line-height: 1.5em;
     color: #ba8748;
 }
+
 @media screen and (max-width: 650px) {
     .text {
         font-size: 20px;
@@ -1505,7 +1641,9 @@ a {
     margin-left: -10px;
 }
 
+
 /* ANIMATION */
+
 #headline {
     transform: translate(115px, 0px) scalex(1);
     /* @include transform-origin(right); */
@@ -1528,6 +1666,7 @@ a {
         transform-origin: right;
     }
 }
+
 @-webkit-keyframes grow {
     0% {
         transform: translate(115px, 0px) scalex(1);
@@ -1541,34 +1680,47 @@ a {
     }
 }
 
+
 /* ------------------------------------------------ */
+
+
 /* FOOTER CSS */
+
+
 /* ------------------------------------------------ */
+
 footer {
     border-top: 1px solid orange;
 }
+
 .fa-heart {
     color: #dc3545 !important;
 }
+
 .fa.fa-copyright {
     color: white;
 }
+
 .tagline {
     color: #17a2b8 !important;
     cursor: pointer;
 }
+
 .card.card-dev {
     width: 17rem;
     height: 350px !important;
     border-radius: 25px !important;
 }
+
 .strong {
     font-weight: 700;
     font-size: large;
 }
+
 .order-12 {
     order: 0 !important;
 }
+
 @media (max-width: 768px) {
     .card.card-dev {
         width: 8rem !important;
@@ -1583,26 +1735,33 @@ footer {
     .social-menu {
         margin-top: 20px !important;
     }
-
     .footer.py-4 {
         padding-top: 0 !important;
         padding-bottom: 0 !important;
     }
 }
+
 @media (max-width: 425px) {
     .card-dev {
         width: 2rem !important;
         height: 400px !important;
     }
 }
+
 .modal,
 .modal-open {
     padding: 0 !important;
 }
 
+
 /* ------------------------------------------------ */
+
+
 /* HEADER ANIMATION CSS */
+
+
 /* ------------------------------------------------ */
+
 .glitch {
     color: rgb(223, 191, 191);
     position: relative;
@@ -1620,10 +1779,8 @@ footer {
     background: black;
     overflow: hidden;
     top: 0;
-    -webkit-animation: noise-1 3s linear infinite alternate-reverse,
-        glitch 5s 5.05s infinite;
-    animation: noise-1 3s linear infinite alternate-reverse,
-        glitch 5s 5.05s infinite;
+    -webkit-animation: noise-1 3s linear infinite alternate-reverse, glitch 5s 5.05s infinite;
+    animation: noise-1 3s linear infinite alternate-reverse, glitch 5s 5.05s infinite;
 }
 
 .glitch::after {
@@ -1634,10 +1791,8 @@ footer {
     background: black;
     overflow: hidden;
     top: 0;
-    -webkit-animation: noise-2 3s linear infinite alternate-reverse,
-        glitch 5s 5s infinite;
-    animation: noise-2 3s linear infinite alternate-reverse,
-        glitch 5s 5s infinite;
+    -webkit-animation: noise-2 3s linear infinite alternate-reverse, glitch 5s 5s infinite;
+    animation: noise-2 3s linear infinite alternate-reverse, glitch 5s 5s infinite;
 }
 
 @-webkit-keyframes glitch {
@@ -1670,16 +1825,8 @@ footer {
     height: 100%;
     top: 0;
     left: 0;
-
-    background: repeating-linear-gradient(
-        to bottom,
-        transparent 0%,
-        rgba(255, 255, 255, 0.05) 0.5%,
-        transparent 1%
-    );
-
+    background: repeating-linear-gradient( to bottom, transparent 0%, rgba(255, 255, 255, 0.05) 0.5%, transparent 1%);
     -webkit-animation: fudge 7s ease-in-out alternate infinite;
-
     animation: fudge 7s ease-in-out alternate infinite;
 }
 
@@ -1746,9 +1893,15 @@ footer {
     }
 }
 
+
 /* ------------------------------------------------ */
+
+
 /* BACK TO TOP CSS */
+
+
 /* ------------------------------------------------ */
+
 #button {
     display: inline-block;
     background-color: #b78547;
@@ -1764,6 +1917,7 @@ footer {
     visibility: hidden;
     z-index: 1000;
 }
+
 #button::after {
     content: '\f077';
     font-family: FontAwesome;
@@ -1773,13 +1927,16 @@ footer {
     line-height: 50px;
     color: #fff;
 }
+
 #button:hover {
     cursor: pointer;
     background-color: #333;
 }
+
 #button:active {
     background-color: #555;
 }
+
 #button.show {
     opacity: 1;
     visibility: visible;
