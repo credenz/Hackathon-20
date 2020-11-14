@@ -1455,7 +1455,7 @@ a {
             rgba(0, 0, 0, var(--bg-filter-opacity))
         ),
         var(--bg-img);
-    height: 20em;
+    height: 22em;
     width: 15em;
     font-size: 1.5em;
     color: #262626;
