@@ -113,27 +113,6 @@ nav {
     width: 100% !important;
 }
 
-
-/* for background-size:cover replacement on iOS devices */
-
-@media only screen and (orientation: portrait) and (device-width: 320px),
-(device-width: 768px) {
-    #home {
-        -webkit-background-size: auto !important;
-        background-size: auto!important;
-        background-attachment: scroll !important;
-    }
-}
-
-@media only screen and (orientation: landscape) and (device-width: 320px),
-(device-width: 768px) {
-    #home {
-        -webkit-background-size: auto !important;
-        background-size: auto!important;
-        background-attachment: scroll !important;
-    }
-}
-
 .commonHeight {
     height: 100vh;
 }
@@ -2201,4 +2180,16 @@ footer {
 #button.show {
     opacity: 1;
     visibility: visible;
+}
+
+
+/* for background-size:cover replacement on iOS devices */
+
+@media only screen and (orientation: landscape) and (device-width: 320px),
+(device-width: 768px) {
+    #home {
+        -webkit-background-size: auto !important;
+        background-size: auto!important;
+        background-attachment: scroll !important;
+    }
 }
