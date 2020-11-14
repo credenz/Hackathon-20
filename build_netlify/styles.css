@@ -85,7 +85,7 @@ nav {
 /* ------------------------------------------------ */
 
 #home {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
         url('./bg-main2.jpg') !important;
     background-attachment: fixed;
     background-size: cover;
@@ -94,19 +94,28 @@ nav {
     width: 100% !important;
 }
 /* for background-size:cover replacement on iOS devices */
-@media only screen and (orientation: portrait) and (device-width: 320px), (device-width: 768px) {
+@media only screen and (orientation: portrait) and (device-width: 320px),
+    (device-width: 768px) {
     header {
+<<<<<<< HEAD
+        background-attachment: scroll;
+=======
       -webkit-background-size: auto 150% !important;
       background-size:  auto!important;
       background-attachment: scroll !important;
+>>>>>>> fd07352d50ecb6abd8506b37c202abbf20cf7177
     }
 }
-@media only screen and (orientation: landscape) and (device-width: 320px), (device-width: 768px) {
-
+@media only screen and (orientation: landscape) and (device-width: 320px),
+    (device-width: 768px) {
     header {
+<<<<<<< HEAD
+        background-attachment: scroll;
+=======
       -webkit-background-size: 150% auto !important;
       background-size:  auto!important;
       background-attachment: scroll !important;
+>>>>>>> fd07352d50ecb6abd8506b37c202abbf20cf7177
     }
 }
 
@@ -116,7 +125,6 @@ nav {
 
 .pre-heading {
     text-align: center;
-    margin-top: 2vw;
 }
 
 .pre-heading p {
@@ -150,15 +158,14 @@ nav {
 }
 
 .display-1 {
-    font-size: 5vw;
+    font-size: 7rem;
 }
-.display-3{
-    font-size: 4rem;
+.display-3 {
+    font-size: 3rem;
 }
-.display-4{
+.display-4 {
     font-size: 2.5rem;
 }
-
 
 .heading p {
     letter-spacing: 3px;
@@ -1450,6 +1457,10 @@ a {
     --transition-time: 0.5s;
 }
 
+#updates {
+    height: 120vh;
+}
+
 * {
     box-sizing: border-box;
 }
@@ -1636,6 +1647,11 @@ a {
     } */
     .card1 {
         max-width: calc(100vw - 4rem);
+    }
+    #updates {
+        height: -webkit-fit-content;
+        height: -moz-fit-content;
+        height: fit-content;
     }
 }
 
