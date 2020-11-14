@@ -78,7 +78,7 @@ border-radius: 10px;
     content: '';
     width: 40px;
     height: 90%;
-    background:  #008b8b;
+    background: #008b8b;
     position: absolute;
     top: 10%;
     right: -20px;
@@ -92,7 +92,7 @@ border-radius: 10px;
     width: 80px;
     height: 80px;
     border-radius: 50%;
-    background:  #008b8b;
+    background: #008b8b;
     overflow: hidden;
     text-align: center;
     position: absolute;
@@ -107,7 +107,7 @@ border-radius: 10px;
     height: 60px;
     border-radius: 50%;
     background: #fff;
-    border: 2px solid  #008b8b;
+    border: 2px solid #008b8b;
     box-shadow: 0 0 0 4px #50b5b4;
     margin: auto;
     position: absolute;
@@ -142,9 +142,9 @@ border-radius: 10px;
     width: 30px;
     height: 30px;
     border-radius: 50%;
-    background:  #008b8b;
+    background: #008b8b;
     border: 5px solid #fff;
-    box-shadow: 0 0 0 4px  #008b8b;
+    box-shadow: 0 0 0 4px #008b8b;
     margin: auto;
     position: absolute;
     bottom: -15px;
@@ -177,7 +177,7 @@ border-radius: 10px;
     background: #fff;
     position: absolute;
     top: -7%;
-    right: 15px;
+    right: 5px;
     z-index: -1;
 }
 
@@ -195,7 +195,7 @@ border-radius: 10px;
 .main-timeline7 .title {
     font-size: 22px;
     font-weight: 700;
-    color:  #008b8b;
+    color: #008b8b;
     margin-top: 0;
 }
 
@@ -374,8 +374,8 @@ border-radius: 10px;
     }
 }
 
-@media( max-width: 600px){
-  p.description{
-    font-size: 15px !important;
-  }
+@media (max-width: 600px) {
+    p.description {
+        font-size: 15px !important;
+    }
 }
