@@ -342,6 +342,13 @@ nav {
     margin-bottom: 300px !important;
 }
 
+@media(max-width: 600px){
+    section#domains{
+        margin-bottom: 0px !important;
+    }
+
+}
+
 #rules{
     margin-bottom: 200px !important;
 }
