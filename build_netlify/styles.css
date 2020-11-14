@@ -9,7 +9,11 @@ html {
   overflow-x: hidden;
 }
 body {
-  background-image: url('./bg-body.jpg');
+  background-image: linear-gradient(
+    to bottom,
+    rgb(255, 255, 255, 1),
+    rgb(255, 255, 255, 0.6)
+  ),url('./bg-body.jpg');
   background-attachment: fixed;
   background-size: cover;
   overflow-x: hidden;
@@ -85,7 +89,7 @@ nav {
 
 #home {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url('./homebggif1.gif');
+    url('./homebggif1.gif')!important;
   background-attachment: fixed;
   background-size: cover;
   color: #fff !important;
