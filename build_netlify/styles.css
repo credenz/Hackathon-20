@@ -97,6 +97,7 @@ nav {
 @media only screen and (orientation: portrait) and (device-width: 320px), (device-width: 768px) {
     header {
       -webkit-background-size: auto 150% !important;
+      background-size:  auto!important;
       background-attachment: scroll !important;
     }
 }
@@ -104,6 +105,7 @@ nav {
 
     header {
       -webkit-background-size: 150% auto !important;
+      background-size:  auto!important;
       background-attachment: scroll !important;
     }
 }
