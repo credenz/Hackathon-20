@@ -207,6 +207,7 @@ border-radius: 10px;
 
 .main-timeline7 .timeline:nth-child(2) {
     margin-top: 140px;
+    padding-right: 10px;
 }
 
 .main-timeline7 .timeline:nth-child(even) {
@@ -220,6 +221,7 @@ border-radius: 10px;
 .main-timeline7 .timeline:first-child,
 .main-timeline7 .timeline:last-child:nth-child(even) {
     margin: 0 !important;
+    padding-right: 10px;
 }
 
 .main-timeline7 .timeline:nth-child(2n) .timeline-icon,
