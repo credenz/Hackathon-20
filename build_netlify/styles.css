@@ -398,7 +398,7 @@ nav {
 
 @media (max-width: 768px) {
     .registration-link {
-        font-size: 15px !important;
+        font-size: 18px !important;
         text-decoration: none;
     }
     .registration-link:hover {
@@ -1210,8 +1210,7 @@ a {
     color: #262626;
     background-color: #fff;
 }
-@media (max-width: 720px) {
-}
+
 
 .card-header {
     background-color: transparent !important;
@@ -1230,6 +1229,14 @@ a {
 .answer {
     font-size: 150%;
     color: #262626;
+}
+@media (max-width: 768px) {
+    .question{
+        font-size: 18px;
+    }
+    .answer{
+        font-size: 18px;
+    }
 }
 
 /* ------------------------------------------------ */
@@ -1463,7 +1470,7 @@ a {
         flex: 100%;
     }
     .contact-in p {
-        font-size: 15px !important;
+        font-size: 18px !important;
     }
 }
 
