@@ -386,10 +386,18 @@ nav {
 #trophies{
     height: 60vh;
 }
+.trophy{
+     height: 11em;
+}
 @media (max-width: 768px) {
     #trophies{
     height: 100vh;
     }
+    .trophy{
+        padding-top: 3em;
+        height: 13.5em;
+    }
+
 }
 @media (min-width: 1200px) {
     .momoney{
@@ -399,6 +407,9 @@ nav {
         padding-top: 3.5em;
 
     }
+}
+.trophy:hover{
+    transform: scale(1.2);
 }
 
 
@@ -1092,6 +1103,7 @@ DEMO
     border-radius: 25px !important;
     -webkit-transition: -webkit-transform .8s ease-in-out;
           transition: transform .8s ease-in-out;
+
 }
 
 .card:hover {
@@ -1208,11 +1220,9 @@ a {
         top: 64%;
         margin-top: -13px;
     }
-    .trophy{
-        height: 10em;
-    }
     /* border: 1px solid red; */
 }
+
 
 /* ------------------------------------------------ */
 
