@@ -391,6 +391,15 @@ nav {
     height: 100vh;
     }
 }
+@media (min-width: 1200px) {
+    .momoney{
+        padding-top: 1em;
+    }
+    #trophies .container{
+        padding-top: 3.5em;
+
+    }
+}
 
 
 /* ------------------------------------------------ */
