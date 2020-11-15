@@ -551,23 +551,32 @@ nav {
 
 @media screen and (max-width: 768px) {
     .content p {
-        font-size: 15px;
+        /* font-size: 15px; */
+        font-size:18px;
         line-height: 27px;
         margin: 0em;
+    }
+    .box{
+        height:570px;
     }
 }
 
 @media screen and (max-width: 526px) {
     .content p {
-        font-size: 15px;
+        /* font-size: 15px; */
+        font-size:18px;
         line-height: 25px;
         margin: -0.3em;
+    }
+    .box{
+        height:570px;
     }
 }
 
 @media screen and (max-width: 465px) {
     .content p {
-        font-size: 15px;
+        /* font-size: 15px; */
+        font-size:18px;
         line-height: 24px;
         margin: -0.5em;
     }
@@ -575,7 +584,8 @@ nav {
 
 @media screen and (max-width: 436px) {
     .content p {
-        font-size: 1.2em;
+        /* font-size: 1.2em; */
+        font-size:18px;
         line-height: 22px;
         margin: 0em;
     }
@@ -583,18 +593,30 @@ nav {
 
 @media screen and (max-width: 413px) {
     .content p {
-        font-size: 1.1em;
+        /* font-size: 1.1em; */
+        font-size:18px;
         line-height: 23px;
         margin: 0em;
+    }
+    .box{
+        height:585px;
     }
 }
 
 @media screen and (max-width: 398px) {
     .content p {
-        font-size: 1.1em;
+        /* font-size: 1.1em; */
+        font-size:18px;
         line-height: 20px;
         margin: 0em;
     }
+    .box-1{
+        height:670px;
+    }
+    .box-2{
+        height:620px;
+    }
+  
 }
 
 /* ------------------------------------------------ */
