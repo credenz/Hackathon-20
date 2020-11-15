@@ -227,7 +227,7 @@ border-radius: 10px;
 .main-timeline7 .timeline:nth-child(2n) .timeline-icon,
 .main-timeline7 .timeline:nth-child(2n):before {
     right: auto;
-    left: -20px;
+    left: -15px;
     background: #e77e21;
 }
 
