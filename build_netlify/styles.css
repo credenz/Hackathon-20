@@ -391,11 +391,14 @@ nav {
 }
 @media (max-width: 768px) {
     #trophies{
-    height: 100vh;
+    height: 125vh;
     }
     .trophy{
-        padding-top: 3em;
-        height: 13.5em;
+        padding-top: 2em;
+        height: 11.5em;
+    }
+    .card{
+        padding-left: 10em;
     }
 
 }
@@ -408,9 +411,7 @@ nav {
 
     }
 }
-.trophy:hover{
-    transform: scale(1.2);
-}
+
 
 
 /* ------------------------------------------------ */
@@ -1100,16 +1101,20 @@ DEMO
 .card {
     width: 21rem;
     height: 21rem !important;
-    border-radius: 25px !important;
+    border-radius: 50% !important;
     -webkit-transition: -webkit-transform .8s ease-in-out;
           transition: transform .8s ease-in-out;
+    background-color: #567986;
+    margin: 0 auto;
 
 }
 
 .card:hover {
-    box-shadow: 0px 4px 8px rgba(38, 38, 38, 0.2) !important;
-    -webkit-transform: rotate(360deg);
-          transform: rotate(360deg);
+     /*box-shadow: 10px 7px 10px 10px rgba(157, 196, 210, 0.7);*/
+      box-shadow:
+    0 0 30px 10px #9dc4d2,  /* inner white */
+    0 0 30px 10px #C4DBE4, /* middle magenta */
+    0 0 30px 10px #D7E7ED;
 }
 
 .card-img-top {
@@ -1212,9 +1217,9 @@ a {
         height: 24rem !important;
     }
     .card {
-        width: 23rem;
-        height: 16rem !important;
         margin-bottom: 2em;
+        margin-left:auto;
+        margin-right:auto;
     }
     .social-links ul {
         top: 64%;
