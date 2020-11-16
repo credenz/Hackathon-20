@@ -384,14 +384,15 @@ nav {
 
 /* ------------------------------------------------ */
 #trophies{
-    height: 100vh;
+    height: 140vh;
 }
 .trophy{
      height: 11em;
 }
+
 @media (max-width: 768px) {
     #trophies{
-    height: 130vh;
+    height: fit-content;
     }
     .trophy{
         padding-top: 2em;
@@ -418,6 +419,12 @@ nav {
         height: 18em;
     }
 
+}
+@media (min-width: 320px){
+.col-lg-6 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
 }
 
 
@@ -1618,7 +1625,7 @@ a {
 }
 
 #updates {
-    height: 120vh;
+    height: fit-content;
 }
 
 * {
