@@ -323,7 +323,7 @@ nav {
 #updates,
 #rules,
 #domains,
-#contactusss {
+#contactusss,#trophies {
     background-image: linear-gradient(
         to bottom,
         rgb(255, 255, 255, 1),
@@ -378,6 +378,56 @@ nav {
         margin-bottom: 0 !important;
     }
 }
+/* ------------------------------------------------ */
+
+/* Prizes CSS */
+
+/* ------------------------------------------------ */
+#trophies{
+    height: 140vh;
+}
+.trophy{
+     height: 11em;
+}
+
+@media (max-width: 768px) {
+    #trophies{
+    height: fit-content;
+    }
+    .trophy{
+        padding-top: 2em;
+        height: 11.5em;
+    }
+    .card{
+        padding-left: 10em;
+    }
+
+}
+@media (min-width: 1200px) {
+    .momoney{
+        padding-top: 1em;
+    }
+    #trophies .container{
+        padding-top: 3.5em;
+
+    }
+}
+@media (max-width: 375px) {
+    .card{
+    
+        width: 18em;
+        height: 18em;
+    }
+
+}
+@media (min-width: 320px){
+.col-lg-6 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+
 
 /* ------------------------------------------------ */
 
@@ -398,7 +448,7 @@ nav {
 
 @media (max-width: 768px) {
     .registration-link {
-        font-size: 15px !important;
+        font-size: 18px !important;
         text-decoration: none;
     }
     .registration-link:hover {
@@ -551,23 +601,32 @@ nav {
 
 @media screen and (max-width: 768px) {
     .content p {
-        font-size: 15px;
+        /* font-size: 15px; */
+        font-size:18px;
         line-height: 27px;
         margin: 0em;
+    }
+    .box{
+        height:570px;
     }
 }
 
 @media screen and (max-width: 526px) {
     .content p {
-        font-size: 15px;
+        /* font-size: 15px; */
+        font-size:18px;
         line-height: 25px;
         margin: -0.3em;
+    }
+    .box{
+        height:570px;
     }
 }
 
 @media screen and (max-width: 465px) {
     .content p {
-        font-size: 15px;
+        /* font-size: 15px; */
+        font-size:18px;
         line-height: 24px;
         margin: -0.5em;
     }
@@ -575,7 +634,8 @@ nav {
 
 @media screen and (max-width: 436px) {
     .content p {
-        font-size: 1.2em;
+        /* font-size: 1.2em; */
+        font-size:18px;
         line-height: 22px;
         margin: 0em;
     }
@@ -583,18 +643,90 @@ nav {
 
 @media screen and (max-width: 413px) {
     .content p {
-        font-size: 1.1em;
+        /* font-size: 1.1em; */
+        font-size:18px;
         line-height: 23px;
         margin: 0em;
+    }
+    .box-1{
+        height:600px;
     }
 }
 
 @media screen and (max-width: 398px) {
     .content p {
-        font-size: 1.1em;
+        /* font-size: 1.1em; */
+        font-size:18px;
+        line-height: 28px;
+        margin: 0em;
+    }
+    .box-1{
+        height:780px;
+    }
+    .box-2{
+        height:710px;
+    }
+  
+}
+@media screen and (max-width: 380px) {
+    .content p {
+        /* font-size: 1.1em; */
+        font-size:18px;
+        line-height: 27px;
+        margin: 0em;
+    }
+    .box-1{
+        height:790px;
+    }
+    .box-2{
+        height:700px;
+    }
+  
+}
+@media screen and (max-width: 364px) {
+    .content p {
+        /* font-size: 1.1em; */
+        font-size:18px;
+        line-height: 24px;
+        margin: 0em;
+    }
+    .box-1{
+        height:800px;
+    }
+    .box-2{
+        height:650px;
+    }
+  
+}
+@media screen and (max-width: 353px) {
+    .content p {
+        /* font-size: 1.1em; */
+        font-size:18px;
+        line-height: 22px;
+        margin: 0em;
+    }
+    .box-1{
+        height:780px;
+    }
+    .box-2{
+        height:640px;
+    }
+  
+}
+@media screen and (max-width: 332px) {
+    .content p {
+        /* font-size: 1.1em; */
+        font-size:18px;
         line-height: 20px;
         margin: 0em;
     }
+    .box-1{
+        height:760px;
+    }
+    .box-2{
+        height:690px;
+    }
+  
 }
 
 /* ------------------------------------------------ */
@@ -1042,16 +1174,30 @@ DEMO
 /* ------------------------------------------------ */
 
 .card {
+<<<<<<< HEAD
     width: 35rem;
     height: 450px !important;
     border-radius: 25px !important;
     transition: transform 0.2s ease-out !important;
     transition: all 0.5s ease-out !important;
+=======
+    width: 21rem;
+    height: 21rem !important;
+    border-radius: 50% !important;
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+          transition: transform .8s ease-in-out;
+    background-color: #567986;
+    margin: 0 auto;
+
+>>>>>>> 12ff795ab5f003a295fcfbc96717f41119867d16
 }
 
 .card:hover {
-    box-shadow: 0px 4px 8px rgba(38, 38, 38, 0.2) !important;
-    transform: scale(1.05) !important;
+     /*box-shadow: 10px 7px 10px 10px rgba(157, 196, 210, 0.7);*/
+      box-shadow:
+    0 0 30px 10px #9dc4d2,  /* inner white */
+    0 0 30px 10px #C4DBE4, /* middle magenta */
+    0 0 30px 10px #D7E7ED;
 }
 
 .card-img-top {
@@ -1155,8 +1301,9 @@ a {
         height: 24rem !important;
     }
     .card {
-        width: 23rem;
-        height: 380px !important;
+        margin-bottom: 2em;
+        margin-left:auto;
+        margin-right:auto;
     }
     .social-links ul {
         top: 64%;
@@ -1164,6 +1311,7 @@ a {
     }
     /* border: 1px solid red; */
 }
+
 
 /* ------------------------------------------------ */
 
@@ -1189,8 +1337,7 @@ a {
     color: #262626;
     background-color: #fff;
 }
-@media (max-width: 720px) {
-}
+
 
 .card-header {
     background-color: transparent !important;
@@ -1209,6 +1356,14 @@ a {
 .answer {
     font-size: 150%;
     color: #262626;
+}
+@media (max-width: 768px) {
+    .question{
+        font-size: 18px;
+    }
+    .answer{
+        font-size: 18px;
+    }
 }
 
 /* ------------------------------------------------ */
@@ -1442,7 +1597,7 @@ a {
         flex: 100%;
     }
     .contact-in p {
-        font-size: 15px !important;
+        font-size: 18px !important;
     }
 }
 
@@ -1539,7 +1694,7 @@ a {
 }
 
 #updates {
-    height: 120vh;
+    height: fit-content;
 }
 
 * {
