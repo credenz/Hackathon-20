@@ -1047,6 +1047,7 @@ DEMO
     border-radius: 25px !important;
     transition: transform 0.2s ease-out !important;
     transition: all 0.5s ease-out !important;
+   
 }
 
 .card:hover {
@@ -1056,11 +1057,13 @@ DEMO
 
 .card-img-top {
     height: 15rem;
+  
 }
 
 .card-img-top {
     border-radius: 25px !important;
     border-bottom: 1px solid gainsboro;
+    
 }
 
 .card-body {
