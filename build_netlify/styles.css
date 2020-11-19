@@ -323,7 +323,7 @@ nav {
 #updates,
 #rules,
 #domains,
-#contactusss {
+#contactusss,#judge {
     background-image: linear-gradient(
         to bottom,
         rgb(255, 255, 255, 1),
@@ -1033,6 +1033,46 @@ DEMO
         height: 15vw;
         width: auto;
     }
+}
+
+-/* ------------------------------------------------ */
+
+/* Prizes CSS */
+
+/* ------------------------------------------------ */
+#trophies{
+    height: 140vh;
+}
+.trophy{
+     height: 11em;
+}
+
+@media (max-width: 768px) {
+    #trophies{
+    height: fit-content;
+    }
+    .trophy{
+        padding-top: 2em;
+        height: 11.5em;
+    }
+
+
+}
+@media (min-width: 1200px) {
+    .momoney{
+        padding-top: 1em;
+    }
+    #trophies .container{
+        padding-top: 3.5em;
+
+    }
+}
+
+@media (min-width: 320px){
+.col-lg-6 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
 }
 
 /* ------------------------------------------------ */
