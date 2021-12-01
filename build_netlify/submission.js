@@ -49,11 +49,39 @@ document.getElementById("uploadButton").addEventListener("click", function (e) {
     const file = document.getElementById("file").files[0];
     const fileName = file.name;
     const storageRef = ref(storage, fileName);
+    console.log("storageref", storageRef);
     uploadBytes(storageRef, file).then((snapshot) => {
       alert("File uploaded successfully");
     });
   } catch (error) {
     alert("You need to login to upload PPT.");
     window.location.href = "./login.html";
+  }
+});
+document.getElementById("logout").addEventListener("click", function (e) {
+  e.preventDefault();
+  auth
+    .signOut()
+    .then(function () {
+      //signout successfull
+      if (document.getElementById("logout").innerHTML == "Logout") {
+        alert("You have been logged out.");
+        window.location.href = "./index.html";
+      } else {
+        window.location.href = "./login.html";
+      }
+    })
+    .catch(function (error) {
+      // An error happened.
+      alert("Error logging out.");
+    });
+});
+
+auth.onAuthStateChanged((user) => {
+  if (user) {
+    console.log(user.email + " is logged in!");
+  } else {
+    console.log("User is logged out!");
+    document.getElementById("logout").innerHTML = "Login";
   }
 });
