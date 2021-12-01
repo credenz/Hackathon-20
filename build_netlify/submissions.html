@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+      integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>PISB | Ideathon '21</title>
+    <link rel="stylesheet" href="login.css" />
+    <style>
+      .form-container-new {
+        grid-template-columns: 1fr;
+        grid-auto-rows: max-content;
+        grid-row-gap: 22px;
+        background-color: inherit;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="main">
+      <header>
+        <!-- NAVBAR -->
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+          <a class="navbar-brand" href="http://pictieee.in/" target="_blank">
+            <img
+              src="./pisb.jpg"
+              class="pisblogo"
+              width="130"
+              height="40"
+              alt="PISB Logo"
+              loading="lazy"
+            />
+          </a>
+          <!-- Toggle Button -->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item fromLeft active mr-3">
+                <a class="nav-link" href="./index.html#home">Home</a>
+              </li>
+              <li class="nav-item fromLeft active mr-3">
+                <a class="nav-link" href="./index.html#about">About</a>
+              </li>
+              <li class="nav-item fromLeft active mr-3">
+                <a class="nav-link" href="./index.html#rules">Rules</a>
+              </li>
+              <li class="nav-item fromLeft active mr-3">
+                <a class="nav-link" href="./index.html#domains">Domains</a>
+              </li>
+              <li class="nav-item fromLeft active mr-3">
+                <a class="nav-link" href="./index.html#timeline">Timeline</a>
+              </li>
+              <li class="nav-item fromLeft active mr-3">
+                <a class="nav-link" href="./index.html#judge">Judge Panel</a>
+              </li>
+              <li class="nav-item fromLeft active mr-3">
+                <a class="nav-link" href="./index.html#updates">Updates</a>
+              </li>
+              <li class="nav-item fromLeft active mr-3">
+                <a class="nav-link" href="./index.html#faqs">FAQs</a>
+              </li>
+              <li class="nav-item fromLeft active mr-3">
+                <a class="nav-link" href="./index.html#contactusss"
+                  >Contact Us</a
+                >
+              </li>
+              <li class="nav-item fromLeft active mr-3">
+                <a class="nav-link" href="./login.html">Login</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+      <div class="svg">
+        <div class="row d-flex justify-content-center">
+          <p class="animate display-3">IDEATHON &apos;21</p>
+        </div>
+        <div class="row">
+          <div class="col-md-12 d-flex justify-content-center">
+            <div class="pre-heading">
+              <h2
+                class="mt-2 display-4 pre-heading__present"
+                style="margin-bottom: 1em"
+              >
+                sponsored by
+              </h2>
+              <div style="font-size: 2rem" class="pre-heading__pisb">
+                <a href="https://protons.in/" target="_blank ">
+                  <img src="proton.png" style="height: 75px" />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div style="overflow-x: hidden" class="form-container">
+        <div class="row justify-content-center">
+          <h2 style="color: #fff" class="display-4 text-center">
+            My Submissions
+          </h2>
+          <div class="row justify-content-center">
+            <p style="font-size: 20px; color: #fff0ff" class="lead text-center">
+              File name format should be:
+              <i style="font-size: 20px; color: #17a2b8"
+                >team_name.pdf/.ppt/.pptx</i
+              >
+            </p>
+            <input
+              id="file"
+              style="width: 80%"
+              class="btn btn-light btn-sm"
+              accept=".pdf,.pptx,.ppt"
+              id="formFileSm"
+              type="file"
+            />
+            <button id="uploadButton" class="my-4 btn btn-info">Upload</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="https://www.gstatic.com/firebasejs/9.5.0/firebase-app.js"></script>
+
+  <script src="submission.js" type="module"></script>
+  <!-- <script type="module" src="auth.js"></script> -->
+  <script
+    src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
+    integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF"
+    crossorigin="anonymous"
+  ></script>
+</html>

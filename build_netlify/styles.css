@@ -1,8 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani&display=swap');
+@font-face {
+    font-family: 'SolThin';
+    src: url('./SolThin.otf');
+}
 * {
     font-size: 14px;
     color: #262626;
     padding-right: 0;
-    font-family: 'Lato', sans-serif;
+    /* font-family: 'SolThin',Lato , sans-serif; */
+    font-family: 'Rajdhani', sans-serif;
 }
 
 html {
@@ -95,11 +101,19 @@ nav {
 /* HOME CSS */
 
 /* ------------------------------------------------ */
-
+.idea-heading{
+    font-size: 10rem !important;
+}
+@media(max-width:768px){
+    .idea-heading{
+        font-size: 4rem !important;
+    }
+}
 #home {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-        url('./bg-main2.jpg') !important;
+        url('./bg-future-1.jpg') !important;
     background-attachment: fixed;
+    background-position: center;
     background-size: cover;
     color: #fff !important;
     margin-bottom: 0 !important;
@@ -146,6 +160,7 @@ nav {
     -webkit-animation-fill-mode: backwards;
     animation-fill-mode: backwards;
     color: #fff !important;
+    /* font-size: 10rem !important; */
 }
 
 .display-1 {
@@ -329,6 +344,10 @@ nav {
         rgb(255, 255, 255, 1),
         rgb(255, 255, 255, 0)
     );
+    /* background-image: url('./black-bg-1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat; */
+
     margin-top: 0 !important;
 }
 
