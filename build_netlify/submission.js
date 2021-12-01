@@ -49,13 +49,10 @@ document.getElementById("uploadButton").addEventListener("click", function (e) {
     const file = document.getElementById("file").files[0];
     const fileName = file.name;
     const storageRef = ref(storage, fileName);
-    console.log("Fileref", storageRef);
     uploadBytes(storageRef, file).then((snapshot) => {
       alert("File uploaded successfully");
-      console.log("Uploaded a blob or file!");
     });
   } catch (error) {
-    console.log(error);
     alert("You need to login to upload PPT.");
     window.location.href = "./login.html";
   }

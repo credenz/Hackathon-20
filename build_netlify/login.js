@@ -163,7 +163,6 @@ const view = {
 
     registrationSubmitSection.addEventListener("click", function (e) {
       e.preventDefault();
-      console.log("registrationSubmitSection:", e.target.name);
       if (e.target.name == "nextTab" || e.target.name == "registrationSubmit") {
         view.checkTabValidity(registrationFormTabs);
       } else if (e.target.name == "previousTab") {
@@ -216,11 +215,9 @@ const db = getFirestore();
 const storage = getStorage();
 
 function registerFirebase() {
-  console.log("In frebase func");
   const email = document.getElementById("registrationEmail").value;
   const password = document.getElementById("registrationPassword").value;
   createUserWithEmailAndPassword(auth, email, password).then(async (cred) => {
-    console.log(cred);
     try {
       const docRef = await addDoc(collection(db, "users"), {
         teamName: document.getElementById("registrationName").value || "",
@@ -245,13 +242,11 @@ function loginFirebase() {
   const email = document.getElementById("loginEmail").value;
   const password = document.getElementById("loginPassword").value;
   signInWithEmailAndPassword(auth, email, password).then((cred) => {
-    console.log(cred);
     window.location.href = "./submissions.html";
   });
 }
 
 function uploadToFirebase() {
-  console.log("In uploadToFirebase");
   document
     .getElementById("uploadButton")
     .addEventListener("click", function (e) {
@@ -268,7 +263,6 @@ function uploadToFirebase() {
         function progress(snapshot) {
           var percentage =
             (snapshot.bytesTransferred / snapshot.totalBytes) * 100;
-          console.log(percentage);
         },
         function error(err) {
           alert("Error: " + err.message);

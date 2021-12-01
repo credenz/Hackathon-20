@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "build_netlify",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
